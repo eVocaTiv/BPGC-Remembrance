@@ -1,8 +1,8 @@
 # Moments from my college days at BITS Pilani, K. K. Birla Goa Campus captured in the form of photos!
 
-#### The iconic BPGC placard when you enter the gate. Image credits: Kunal Baweja
+#### The iconic BPGC placard when you enter the gate.
 <p align="center"><img src="screenshots/bits-gate.jpg" /></p>
-
+Image credits: Kunal Baweja
 
 #### I graduated with a B. E. Computer Science ( Hons. ). The convocation ceremony saw a typical Goan downpour!
 <p align="center"><img src="screenshots/convo.jpg" /></p>
