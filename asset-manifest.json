@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BPGC-Remembrance/static/css/main.d1b05096.chunk.css",
+    "main.js": "/BPGC-Remembrance/static/js/main.ac5946a9.chunk.js",
+    "main.js.map": "/BPGC-Remembrance/static/js/main.ac5946a9.chunk.js.map",
+    "runtime-main.js": "/BPGC-Remembrance/static/js/runtime-main.46ecdca9.js",
+    "runtime-main.js.map": "/BPGC-Remembrance/static/js/runtime-main.46ecdca9.js.map",
+    "static/js/2.5b1066c6.chunk.js": "/BPGC-Remembrance/static/js/2.5b1066c6.chunk.js",
+    "static/js/2.5b1066c6.chunk.js.map": "/BPGC-Remembrance/static/js/2.5b1066c6.chunk.js.map",
+    "index.html": "/BPGC-Remembrance/index.html",
+    "precache-manifest.fcf89b638f7f2957b22eec833258e38b.js": "/BPGC-Remembrance/precache-manifest.fcf89b638f7f2957b22eec833258e38b.js",
+    "service-worker.js": "/BPGC-Remembrance/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/BPGC-Remembrance/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.5b1066c6.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.5b1066c6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/BPGC-Remembrance/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46ecdca9.js",
+    "static/js/2.5b1066c6.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.ac5946a9.chunk.js"
+  ]
+}
