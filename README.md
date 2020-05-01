@@ -1,5 +1,10 @@
 # Moments from my college days at BITS Pilani, K. K. Birla Goa Campus captured in the form of photos!
 
+### Initial design concept.
+<p align="center"><img src="WF1.jpg" /></p>
+<p align="center"><img src="WF2.jpg" /></p>
+
+
 ### The iconic BPGC placard, the first thing you see after arriving at the campus!
 <p align="center"><img src="screenshots/bits-gate.jpg" /></p>
 Image credits: Kunal Baweja
