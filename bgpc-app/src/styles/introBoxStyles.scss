@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100vw;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 100px;
+  font-size: 120px;
   width: 100%;
   text-transform: uppercase;
 }
@@ -11,14 +11,15 @@
 .intro-heading--1 {
   color: #5050CC;
   position: absolute;
-  top: 25vh;
+  top: 15vh;
   left: 15vw;
 }
 
 .intro-heading--2 {
   position: absolute;
-  top: 45vh;
-  right: 10vw;
+  top: 40vh;
+  right: 15vw;
+  font-size: 72px;
 }
 
 .intro-heading-bullet {

@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing : antialiased;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
   background-color: #f2faff;
 }
 
@@ -9,27 +9,36 @@ body {
 
 /* Archivo Black */
 @font-face {
-font-family: 'Archivo Black', sans-serif;
-  src: url('./typography/ArchivoBlack-Regular.ttf');
+  font-family: "Archivo Black", sans-serif;
+  src: url("./typography/ArchivoBlack-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 /* Roboto Thin */
 @font-face {
-  font-family: 'Roboto';
-  src: url('./typography/Roboto-Thin.ttf');
+  font-family: "Roboto";
+  src: url("./typography/Roboto-Thin.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 .anim-smooth {
-  animation-delay: 2s;
   transition: all 0.5s ease;
 }
 
 // overriding swiper's default styles.
 .swiper-button-next,
 .swiper-button-prev {
- color: #7DFFAD !important;
+  display: none !important;
+}
+
+.swiper-pagination-bullet{
+  background: white !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #8afff7 !important;
+  opacity: 1 !important;
 }

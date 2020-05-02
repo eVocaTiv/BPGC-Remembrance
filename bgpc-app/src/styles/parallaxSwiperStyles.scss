@@ -8,30 +8,37 @@
   &_heading {
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 5%;
     font-size: 72px;
     text-transform: uppercase;
-    font-weight: bold;
   }
   &_sub-heading {
+    font-size: 40px;
     position: absolute;
-    left: 12.5%;
-    top: 22.5%;
-    color: black;
-    font-size: 25px;
+    top: 0%;
   }
   &_data {
     position: absolute;
-    left: 10%;
-    top: 70%;
-    width: 40%;
+    left: 70%;
+    top: 10%;
+    width: 25%;
     font-family: 'Roboto', sans-serif;
+    color: black;
   }
+}
+
+.parallax-swiper-top-slide--2 {
+  background-color: rgba(114, 232, 191, 0.5);
+}
+
+.parallax-swiper-top-slide--3 {
+  background-color: rgb(114, 232, 191)
 }
 
 .swiper-container-initialized {
   width: 80vw;
   margin: 10vh auto;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .parallax-bg {
@@ -42,10 +49,11 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ), url("../images/bpgc-parallax.jpg");
-  width: 150%;
+  width: 400%;
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-blend-mode: hue;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }

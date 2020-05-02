@@ -2,15 +2,18 @@ import React from "react";
 import "./App.css";
 import "@styles/commonStyles.scss";
 import { ParallaxSwiper, CoverflowSwiper, IntroBox, Navbar } from "@components";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <IntroBox />
-      <ParallaxSwiper />
-      <CoverflowSwiper />
-    </div>
+    <ParallaxProvider>
+        <div className="App">
+          <Navbar />
+          <IntroBox />
+          <ParallaxSwiper />
+          <CoverflowSwiper />
+        </div>
+      </ParallaxProvider>
   );
 }
 

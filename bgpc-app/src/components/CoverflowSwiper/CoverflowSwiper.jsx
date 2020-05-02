@@ -6,6 +6,7 @@ import cf_swiper_img_1 from "@images/img1.jpg";
 import cf_swiper_img_2 from "@images/img2.jpg";
 import cf_swiper_img_3 from "@images/img3.jpg";
 import cf_swiper_img_4 from "@images/img4.jpg";
+import { Parallax } from 'react-scroll-parallax';
 
 const CoverflowSwiper = () => {
   const params = {
@@ -27,30 +28,29 @@ const CoverflowSwiper = () => {
       disableOnInteraction: false
     },
     lazy: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
   };
 
   return (
-    <Swiper className="coverflow-swiper-container" {...params}>
-      <div className="coverflow-swiper-slide">
-        <img className="coverflow-styled-image" src={cf_swiper_img_1} />
-        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
-      </div>
-      <div className="coverflow-swiper-slide">
-        <img className="coverflow-styled-image" src={cf_swiper_img_2} />
-        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
-      </div>
-      <div className="coverflow-swiper-slide">
-        <img className="coverflow-styled-image" src={cf_swiper_img_3} />
-        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
-      </div>
-      <div className="coverflow-swiper-slide">
-        <img className="coverflow-styled-image" src={cf_swiper_img_4} />
-        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
-      </div>
-    </Swiper>
+    <Parallax y={[-30, 70]} tagOuter="figure">
+      <Swiper clasName="coverflow-swiper-container" {...params}>
+        <div className="coverflow-swiper-slide">
+          <img className="coverflow-styled-image" src={cf_swiper_img_1} />
+          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img className="coverflow-styled-image" src={cf_swiper_img_2} />
+          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img className="coverflow-styled-image" src={cf_swiper_img_3} />
+          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img className="coverflow-styled-image" src={cf_swiper_img_4} />
+          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+        </div>
+      </Swiper>
+    </Parallax>
   );
 };
 
