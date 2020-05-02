@@ -1,1 +1,1 @@
-export { SwiperDemo } from './SwiperDemo';
+export { ParallaxSwiper } from './ParallaxSwiper';

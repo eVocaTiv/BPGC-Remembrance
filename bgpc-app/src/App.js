@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import "./styles/commonStyles.scss";
-import { SwiperDemo } from "./components/SwiperDemo";
+import "@styles/commonStyles.scss";
+import { ParallaxSwiper } from "@components/ParallaxSwiper";
 
 function App() {
   return (
     <div className="App">
-      <SwiperDemo />
+      <ParallaxSwiper />
     </div>
   );
 }
