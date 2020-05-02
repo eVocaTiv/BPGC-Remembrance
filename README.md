@@ -1,5 +1,8 @@
 # Moments from my college days at BITS Pilani, K. K. Birla Goa Campus captured in the form of photos!
 
+### Colors & Typography
+<p align="center"><img src="screenshots/colors-typo.jpg" /></p>
+
 ### Initial design concept.
 <p align="center"><img src="screenshots/WF1.jpg" /></p>
 <p align="center"><img src="screenshots/WF2.jpg" /></p>
