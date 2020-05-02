@@ -1,23 +1,35 @@
 .parallax-swiper-top {
   height: 100vh;
+
+  &_heading {
+    color: #72D0E8;
+    font-family: 'Archivo Black', sans-serif;
+  }
 }
 
 .parallax-swiper-top--1 {
   background-image: url("../images/img1.jpg");
   background-position: center;
+  color: white;
+
 }
 
-// .parallax-swiper-top--2 {
-//   background-image: url("../images/img2.jpg");
-//   background-position: center;
-// }
+.parallax-swiper-top--2 {
+  background-image: url("../images/img2.jpg");
+  background-position: center;
+  color: white;
 
-// .parallax-swiper-top--3 {
-//   background-image: url("../images/img3.jpg");
-//   background-position: center;
-// }
+  &_heading {
+    color: #72D0E8;
+  }
+}
 
-// .parallax-swiper-top--4 {
-//   background-image: url("../images/img4.jpg");
-//   background-position: center;
-// }
+.parallax-swiper-top--3 {
+  background-image: url("../images/img3.jpg");
+  background-position: center;
+  color: white;
+
+  &_heading {
+    color: #72D0E8;
+  }
+}

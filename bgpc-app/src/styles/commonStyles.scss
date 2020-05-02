@@ -1,3 +1,22 @@
 body {
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* fonts  */
+
+/* Archivo Black */
+@font-face {
+font-family: 'Archivo Black', sans-serif;
+  src: url('./typography/ArchivoBlack-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Roboto Thin */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./typography/Roboto-Thin.ttf');
+  font-weight: normal;
+  font-style: normal;
 }

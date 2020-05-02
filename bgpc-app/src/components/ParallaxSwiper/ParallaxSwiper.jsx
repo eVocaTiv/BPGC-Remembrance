@@ -5,6 +5,11 @@ import "@styles/parallaxSwiperStyles.scss";
 
 const ParallaxSwiper = () => {
   const params = {
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    loop: true,
     lazy: true,
     speed: 600,
     parallax: true,
@@ -24,11 +29,11 @@ const ParallaxSwiper = () => {
 
   return (
     <Swiper {...params}>
-      <div className="parallax-swiper-top parallax-swiper-top--1"  data-swiper-parallax="-30">
-        <div data-swiper-parallax="-2000">
+      <div className="parallax-swiper-top parallax-swiper-top--1" >
+        <div className="parallax-swiper-top_heading" data-swiper-parallax="-400">
           Slide #1
         </div>
-        <div data-swiper-parallax="-2000">Subtitle</div>
+        <div data-swiper-parallax="-200">Subtitle</div>
         <div data-swiper-parallax="10000">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam dictum mattis velit, sit amet faucibus felis iaculis
@@ -37,10 +42,12 @@ const ParallaxSwiper = () => {
           </p>
         </div>
       </div>
-      <div className="parallax-swiper-top parallax-swiper-top--2">
-        <div data-swiper-parallax="-300">Slide #2</div>
+      <div className="parallax-swiper-top parallax-swiper-top--2" >
+        <div className=" parallax-swiper-top_heading" data-swiper-parallax="-400">
+          Slide #1
+        </div>
         <div data-swiper-parallax="-200">Subtitle</div>
-        <div data-swiper-parallax="-100">
+        <div data-swiper-parallax="10000">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam dictum mattis velit, sit amet faucibus felis iaculis
             nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit,
@@ -48,10 +55,12 @@ const ParallaxSwiper = () => {
           </p>
         </div>
       </div>
-      <div className="parallax-swiper-top parallax-swiper-top--3">
-        <div data-swiper-parallax="-300">Slide #3</div>
+      <div className="parallax-swiper-top parallax-swiper-top--3" >
+        <div className=" parallax-swiper-top_heading" data-swiper-parallax="-400">
+          Slide #1
+        </div>
         <div data-swiper-parallax="-200">Subtitle</div>
-        <div data-swiper-parallax="-100">
+        <div data-swiper-parallax="10000">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam dictum mattis velit, sit amet faucibus felis iaculis
             nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit,
