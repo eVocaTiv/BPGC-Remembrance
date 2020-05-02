@@ -14,10 +14,6 @@ const ParallaxSwiper = () => {
     lazy: true,
     speed: 600,
     parallax: true,
-    parallaxEl: {
-      el: ".parallax-bg",
-      value: "-23%",
-    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -31,13 +27,12 @@ const ParallaxSwiper = () => {
 
   return (
     <Swiper {...params}>
-       <div>
+       <div className="parallax-swiper-top parallax-swiper-top --1">
             <img
-              alt="img"
               data-src={image1}
               className="swiper-lazy"
             />
-            <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
+            <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
           </div>
       {/* <div className="parallax-swiper-top parallax-swiper-top--1" >
         <div className="parallax-swiper-top_heading" data-swiper-parallax="-400">
