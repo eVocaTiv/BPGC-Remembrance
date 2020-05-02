@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing : antialiased;
 }
 
 /* fonts  */
@@ -19,4 +20,9 @@ font-family: 'Archivo Black', sans-serif;
   src: url('./typography/Roboto-Thin.ttf');
   font-weight: normal;
   font-style: normal;
+}
+
+.anim-smooth {
+  animation-delay: 2s;
+  transition: all 0.5s ease;
 }
