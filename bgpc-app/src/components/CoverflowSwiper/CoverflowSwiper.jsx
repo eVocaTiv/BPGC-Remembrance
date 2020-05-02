@@ -14,13 +14,13 @@ const CoverflowSwiper = () => {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
-    spaceBetween: 50,
+    spaceBetween: 0,
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
       depth: 100,
       modifier: 1,
-      slideShadows: true
+      slideShadows: false,
     },
     autoplay: {
       delay: 2500,
@@ -29,27 +29,26 @@ const CoverflowSwiper = () => {
     lazy: true,
     pagination: {
       el: ".swiper-pagination",
-      dynamicBullets: true,
     },
   };
 
   return (
     <Swiper className="coverflow-swiper-container" {...params}>
       <div className="coverflow-swiper-slide">
-        <img data-src={cf_swiper_img_1} className="swiper-lazy" />
-        <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
+        <img className="coverflow-styled-image" src={cf_swiper_img_1} />
+        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
       </div>
       <div className="coverflow-swiper-slide">
-        <img data-src={cf_swiper_img_2} className="swiper-lazy" />
-        <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
+        <img className="coverflow-styled-image" src={cf_swiper_img_2} />
+        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
       </div>
       <div className="coverflow-swiper-slide">
-        <img data-src={cf_swiper_img_3} className="swiper-lazy" />
-        <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
+        <img className="coverflow-styled-image" src={cf_swiper_img_3} />
+        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
       </div>
       <div className="coverflow-swiper-slide">
-        <img data-src={cf_swiper_img_4} className="swiper-lazy" />
-        <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
+        <img className="coverflow-styled-image" src={cf_swiper_img_4} />
+        {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
       </div>
     </Swiper>
   );

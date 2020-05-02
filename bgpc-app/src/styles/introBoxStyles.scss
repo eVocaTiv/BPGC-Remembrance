@@ -1,0 +1,26 @@
+.intro-box-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 100px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.intro-heading--1 {
+  color: #5050CC;
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+}
+
+.intro-heading--2 {
+  position: absolute;
+  top: 45vh;
+  right: 10vw;
+}
+
+.intro-heading-bullet {
+  color: #5050CC;
+}

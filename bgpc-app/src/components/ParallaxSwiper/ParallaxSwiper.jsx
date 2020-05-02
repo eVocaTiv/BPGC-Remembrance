@@ -8,10 +8,6 @@ const ParallaxSwiper = () => {
     lazy: true,
     speed: 600,
     parallax: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false
-    },
     parallaxEl: {
       el: ".parallax-bg",
       value: "-23%",
@@ -31,8 +27,8 @@ const ParallaxSwiper = () => {
         <div className="parallax-swiper-top-slide_heading" data-swiper-parallax="-400">
           Welcome
         </div>
-        <div className="parallax-swiper-top-slide_sub-heading" data-swiper-parallax="-200">
-          Subtitle
+        <div className="parallax-swiper-top-slide_sub-heading" data-swiper-parallax="900">
+          Subtitle 1
         </div>
         <div className="parallax-swiper-top-slide_data"  data-swiper-parallax="10000">
           <p>
@@ -46,8 +42,8 @@ const ParallaxSwiper = () => {
         <div className="parallax-swiper-top-slide_heading" data-swiper-parallax="-400">
           Slide #2
         </div>
-        <div className="parallax-swiper-top-slide_sub-heading" ata-swiper-parallax="-200">
-        Subtitle
+        <div className="parallax-swiper-top-slide_sub-heading" data-swiper-parallax="2000">
+        Subtitle 2
         </div>
         <div className="parallax-swiper-top-slide_data" data-swiper-parallax="10000">
           <p>

@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing : antialiased;
+  background-color: #f2faff;
 }
 
 /* fonts  */
@@ -25,4 +26,10 @@ font-family: 'Archivo Black', sans-serif;
 .anim-smooth {
   animation-delay: 2s;
   transition: all 0.5s ease;
+}
+
+// overriding swiper's default styles.
+.swiper-button-next,
+.swiper-button-prev {
+ color: #7DFFAD !important;
 }

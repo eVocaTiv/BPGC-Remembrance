@@ -1,0 +1,24 @@
+.navbar-container {
+  width: 100vw;
+  position: fixed; /* Make it stick/fixed */
+  top: 0;
+  background: black;
+  overflow: hidden;
+  z-index: 999;
+  transition: all 0.5s; /* Transition effect when sliding down (and up) */
+}
+
+.nav-items-div {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #8AFFF7;
+  font-size: 15px;
+  margin: 10px 50px;
+}

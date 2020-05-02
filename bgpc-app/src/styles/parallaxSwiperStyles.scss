@@ -1,7 +1,7 @@
 .parallax-swiper-top-slide  {
   box-sizing: border-box;
   padding: 40px 60px;
-  height: 100vh;
+  height: 80vh;
   width: 60vw;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -31,13 +31,17 @@
 
 .swiper-container-initialized {
   width: 80vw;
+  margin: 10vh auto;
 }
 
 .parallax-bg {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("../images/bpgc-parallax.jpg");
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/bpgc-parallax.jpg");
   width: 150%;
   height: 100%;
   -webkit-background-size: cover;
