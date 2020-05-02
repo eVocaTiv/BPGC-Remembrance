@@ -2,6 +2,7 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
 import "@styles/parallaxSwiperStyles.scss";
+import image1 from '@images/img1.jpg';
 
 const ParallaxSwiper = () => {
   const params = {
@@ -20,6 +21,7 @@ const ParallaxSwiper = () => {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+      type: 'progressbar',
     },
     navigation: {
       nextEl: ".swiper-button-next",
@@ -29,7 +31,15 @@ const ParallaxSwiper = () => {
 
   return (
     <Swiper {...params}>
-      <div className="parallax-swiper-top parallax-swiper-top--1" >
+       <div>
+            <img
+              alt="img"
+              data-src={image1}
+              className="swiper-lazy"
+            />
+            <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
+          </div>
+      {/* <div className="parallax-swiper-top parallax-swiper-top--1" >
         <div className="parallax-swiper-top_heading" data-swiper-parallax="-400">
           Slide #1
         </div>
@@ -41,7 +51,7 @@ const ParallaxSwiper = () => {
             ac laoreet nibh euismod.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="parallax-swiper-top parallax-swiper-top--2" >
         <div className=" parallax-swiper-top_heading" data-swiper-parallax="-400">
           Slide #2
