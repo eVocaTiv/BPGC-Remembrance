@@ -7,6 +7,7 @@ import "swiper/css/swiper.css";
 const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
   const params = {
     effect: "flip",
+    lazy: true,
     loop: true,
     autoplay: {
       delay: 2500,
