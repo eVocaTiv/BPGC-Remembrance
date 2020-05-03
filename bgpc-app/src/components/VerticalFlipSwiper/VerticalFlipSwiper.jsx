@@ -9,14 +9,7 @@ const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
     effect: "flip",
     lazy: true,
     loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false
-    },
-    grabCursor: false,
-    flipEffect: {
-      shadow: false,
-    }
+    grabCursor: true,
   };
   return (
     <Parallax y={[yOffA, yOffB]} tagOuter="figure">

@@ -7,19 +7,12 @@ import { Parallax } from 'react-scroll-parallax';
 const ParallaxSwiper = () => {
   const params = {
     lazy: true,
-    clickable: true,
     speed: 600,
     parallax: true,
+    grabCursor: true,
     parallaxEl: {
       el: ".parallax-bg",
       value: "-23%",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
     },
   };
 

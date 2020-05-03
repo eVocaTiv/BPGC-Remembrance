@@ -13,7 +13,7 @@ const CoverflowSwiper = () => {
     effect: 'coverflow',
     loop: true,
     lazy: true,
-    clickable: true,
+    grabCursor: true,
     centeredSlides: true,
     slidesPerView: '3',
     spaceBetween: 0,
@@ -23,10 +23,6 @@ const CoverflowSwiper = () => {
       depth: 250,
       modifier: 1,
       slideShadows: false,
-    },
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false
     },
     lazy: true,
     pagination: {

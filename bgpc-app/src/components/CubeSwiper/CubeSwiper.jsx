@@ -14,7 +14,7 @@
       loop: true,
       lazy: true,
       effect: 'cube',
-      clickable: true,
+      grabCursor: true,
       cubeEffect: {
         shadow: true,
         slideShadows: true,
