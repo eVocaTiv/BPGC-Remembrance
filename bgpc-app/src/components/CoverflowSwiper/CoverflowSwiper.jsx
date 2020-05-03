@@ -12,9 +12,10 @@ const CoverflowSwiper = () => {
   const params = {
     effect: 'coverflow',
     loop: true,
+    lazy: true,
     clickable: true,
     centeredSlides: true,
-    slidesPerView: 'auto',
+    slidesPerView: '3',
     spaceBetween: 0,
     coverflowEffect: {
       rotate: 50,
@@ -38,16 +39,20 @@ const CoverflowSwiper = () => {
     <Parallax y={[-30, 70]} tagOuter="figure">
       <Swiper clasName="coverflow-swiper-container" {...params}>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image" src={cf_swiper_img_1} />
+          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_1} />
+          <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image" src={cf_swiper_img_2} />
+          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_2} />
+          <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image" src={cf_swiper_img_3} />
+          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_3} />
+          <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image" src={cf_swiper_img_4} />
+          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_4} />
+          <div className="swiper-lazy-preloader" />
         </div>
       </Swiper>
     </Parallax>
