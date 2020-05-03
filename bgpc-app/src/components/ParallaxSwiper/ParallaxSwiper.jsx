@@ -17,7 +17,6 @@ const ParallaxSwiper = () => {
   };
 
   return (
-    <Parallax x={[-10, 10]} tagOuter="figure">
     <Swiper className="parallax-swiper-container" {...params}>
       <div className="parallax-swiper-top-slide parallax-swiper-top-slide--1">
         <div className="parallax-swiper-top-slide_heading" data-swiper-parallax="-400">
@@ -54,7 +53,6 @@ const ParallaxSwiper = () => {
         </div>
       </div>
     </Swiper>
-    </Parallax>
   );
 };
 
