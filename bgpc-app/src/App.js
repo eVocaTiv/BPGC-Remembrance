@@ -18,7 +18,7 @@ function App() {
         <CoverflowSwiper />
         <CubeSwiper />
         <BGImage imgSrc={cf_swiper_img_2} />
-        <VerticalFlipSwiper  yOffA={-200} yOffB={-450} imgSrc={cf_swiper_img_1} />
+        <VerticalFlipSwiper  yOffA={-300} yOffB={-525} imgSrc={cf_swiper_img_1} />
         <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_2} />
         <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />
         <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />

@@ -8,8 +8,11 @@ const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
   const params = {
     effect: "flip",
     lazy: true,
-    loop: true,
     grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
   };
   return (
     <Parallax y={[yOffA, yOffB]} tagOuter="figure">
@@ -19,8 +22,8 @@ const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
           <div className="swiper-lazy-preloader" />
         </div>
         <div className="vertical-img-container">
-          <img className="vertical-img swiper-lazy" data-src={imgSrc} />
           <div className="swiper-lazy-preloader" />
+          <img className="vertical-img swiper-lazy" data-src={imgSrc} />
         </div>
         
       </Swiper>

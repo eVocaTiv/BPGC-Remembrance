@@ -15,7 +15,7 @@ const CoverflowSwiper = () => {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    spaceBetween: 0,
+    spaceBetween: 10,
     coverflowEffect: {
       rotate: 50,
       stretch: 0,

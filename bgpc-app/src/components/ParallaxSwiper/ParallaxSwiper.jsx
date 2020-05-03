@@ -14,6 +14,10 @@ const ParallaxSwiper = () => {
       el: ".parallax-bg",
       value: "-23%",
     },
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
   };
 
   return (

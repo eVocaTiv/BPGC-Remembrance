@@ -7,7 +7,7 @@ class BGImage extends Component {
     const { imgSrc } = this.props;
     return (
         <div className="bg-img-container">
-          <img className="bg-image" data-src={imgSrc} />
+          <img className="bg-image" src={imgSrc} />
           {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
         </div>
     );
