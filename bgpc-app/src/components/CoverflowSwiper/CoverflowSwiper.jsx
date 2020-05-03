@@ -12,7 +12,7 @@ const CoverflowSwiper = () => {
   const params = {
     effect: 'coverflow',
     loop: true,
-    grabCursor: true,
+    clickable: true,
     centeredSlides: true,
     slidesPerView: 'auto',
     spaceBetween: 0,
@@ -28,6 +28,10 @@ const CoverflowSwiper = () => {
       disableOnInteraction: false
     },
     lazy: true,
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true
+    }
   };
 
   return (
@@ -35,19 +39,15 @@ const CoverflowSwiper = () => {
       <Swiper clasName="coverflow-swiper-container" {...params}>
         <div className="coverflow-swiper-slide">
           <img className="coverflow-styled-image" src={cf_swiper_img_1} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
         </div>
         <div className="coverflow-swiper-slide">
           <img className="coverflow-styled-image" src={cf_swiper_img_2} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
         </div>
         <div className="coverflow-swiper-slide">
           <img className="coverflow-styled-image" src={cf_swiper_img_3} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
         </div>
         <div className="coverflow-swiper-slide">
           <img className="coverflow-styled-image" src={cf_swiper_img_4} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
         </div>
       </Swiper>
     </Parallax>

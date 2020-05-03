@@ -1,0 +1,22 @@
+.vertical-img-container {
+  height: 50vh;
+  margin: 0px auto;
+}
+
+.vertical-img-container-full-ht {
+  height: 100vh;
+}
+
+.vertical-img {
+  height: 50vh;
+  width: 40vw;
+  margin: 0px auto;
+  -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26); /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26);
+}
+
+.swiper-container-flip {
+  box-shadow: none !important;
+  width: 40vw;
+}

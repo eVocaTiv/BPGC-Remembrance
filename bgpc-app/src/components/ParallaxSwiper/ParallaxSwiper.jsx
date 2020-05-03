@@ -7,7 +7,7 @@ import { Parallax } from 'react-scroll-parallax';
 const ParallaxSwiper = () => {
   const params = {
     lazy: true,
-    grabCursor: true,
+    clickable: true,
     speed: 600,
     parallax: true,
     parallaxEl: {

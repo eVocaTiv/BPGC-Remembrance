@@ -1,0 +1,26 @@
+// overriding imported class
+.swiper-container-cube {
+  margin-top: 25vh;
+  margin-bottom: 30vh;
+  height: 75vh;
+  width: 75vw;
+  box-shadow: none !important;
+}
+
+.cube-swiper-slide {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+  & img {
+    width: 75vw;
+    background-color: silver;
+  }
+}
+
+.cube-styled-image {
+  height: 75vh;
+  -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26);/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 20px 20px 0 rgba(0, 0, 0, 0.26);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26);
+}

@@ -34,11 +34,19 @@ body {
 }
 
 .swiper-pagination-bullet{
-  background: white !important;
+  background: #7DC3FF !important;
   opacity: 0.5 !important;
 }
 
-.swiper-pagination-bullet-active {
-  background: #8afff7 !important;
+.swiper-pagination-bullet-active{
+  background: #7DFFAD !important;
   opacity: 1 !important;
+}
+
+.swiper-lazy-preloader {
+  background: transparent !important;
+}
+
+.swiper-lazy-preloader {
+  --swiper-theme-color: #7DFFAD !important;
 }

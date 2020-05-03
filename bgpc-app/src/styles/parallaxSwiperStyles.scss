@@ -28,18 +28,19 @@
 }
 
 .parallax-swiper-top-slide--2 {
-  background-color: rgba(114, 232, 191, 0.5);
+  background-color: rgba(80, 80, 204, 0.5);
 }
 
 .parallax-swiper-top-slide--3 {
-  background-color: rgb(114, 232, 191)
+  background-color: rgb(80, 80, 204)
 }
 
 .swiper-container-initialized {
   width: 80vw;
   margin: 10vh auto;
-  box-shadow: 3px 3px 5px 6px #ccc;
-}
+  -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26);/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 20px 20px 0 rgba(0, 0, 0, 0.26);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.26);}
 
 .parallax-bg {
   position: absolute;
