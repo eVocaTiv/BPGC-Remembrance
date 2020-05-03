@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de113f1c83580bd41cf01d09b735cb7c",
+    "revision": "de9445d2294a5db73c1599bcf86a69e4",
     "url": "/BPGC-Remembrance/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css"
   },
   {
-    "revision": "cf3c1d49e06ce13bf100",
-    "url": "/BPGC-Remembrance/static/css/main.191c9dc6.chunk.css"
+    "revision": "2663ee5d6bd92b7393c4",
+    "url": "/BPGC-Remembrance/static/css/main.81dc21c2.chunk.css"
   },
   {
     "revision": "52e6c6b7f97d6bd89a73",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/js/2.0b63db38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf3c1d49e06ce13bf100",
-    "url": "/BPGC-Remembrance/static/js/main.8e59dc50.chunk.js"
+    "revision": "2663ee5d6bd92b7393c4",
+    "url": "/BPGC-Remembrance/static/js/main.a7c4fa84.chunk.js"
   },
   {
     "revision": "ad4d07b0e587564a3775",
