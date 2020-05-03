@@ -15,11 +15,11 @@ const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
     <Parallax y={[yOffA, yOffB]} tagOuter="figure">
       <Swiper {...params}>
         <div className='vertical-img-container'>
-          <img className="vertical-img swiper-lazy" src={imgSrc} />
+          <img className="vertical-img swiper-lazy" data-src={imgSrc} />
           <div className="swiper-lazy-preloader" />
         </div>
         <div className="vertical-img-container">
-          <img className="vertical-img swiper-lazy" src={imgSrc} />
+          <img className="vertical-img swiper-lazy" data-src={imgSrc} />
           <div className="swiper-lazy-preloader" />
         </div>
         

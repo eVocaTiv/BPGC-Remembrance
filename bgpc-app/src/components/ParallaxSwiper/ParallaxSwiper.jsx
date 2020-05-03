@@ -20,7 +20,7 @@ const ParallaxSwiper = () => {
     <Swiper className="parallax-swiper-container" {...params}>
       <div className="parallax-swiper-top-slide parallax-swiper-top-slide--1">
         <div className="parallax-swiper-top-slide_heading" data-swiper-parallax="-400">
-          <Parallax y={[-40, 40]} x={[-200, 40]} tagOuter="figure">
+          <Parallax y={[-40, 40]} x={[-220, 120]} tagOuter="figure">
             Welcome &nbsp;
             <span className="parallax-swiper-top-slide_sub-heading" data-swiper-parallax="900">
               &#8594;

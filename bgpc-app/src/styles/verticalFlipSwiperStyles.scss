@@ -4,13 +4,14 @@
 }
 
 .vertical-img {
-  outline: 5px solid #5050CC;
+  outline: 3px solid #5050CC;
   height: 50vh;
   width: 40vw;
   margin: 0px auto;
   -webkit-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Firefox 3.5 - 3.6 */
   box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);
+  background-color: #5050CC;
 }
 
 .swiper-container-flip {

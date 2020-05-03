@@ -10,11 +10,11 @@ import { Parallax } from 'react-scroll-parallax';
 
 const CoverflowSwiper = () => {
   const params = {
-    effect: 'coverflow',
+    effect: "coverflow",
     lazy: true,
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     spaceBetween: 0,
     coverflowEffect: {
       rotate: 50,
@@ -23,30 +23,34 @@ const CoverflowSwiper = () => {
       modifier: 1,
       slideShadows: false,
     },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     lazy: true,
     pagination: {
-      el: '.swiper-pagination',
-      dynamicBullets: true
-    }
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
   };
 
   return (
     <Parallax y={[-30, 70]} tagOuter="figure">
       <Swiper clasName="coverflow-swiper-container" {...params}>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_1} />
+          <img className="coverflow-styled-image  swiper-lazy" data-src={cf_swiper_img_1} />
           <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_2} />
+          <img className="coverflow-styled-image  swiper-lazy" data-src={cf_swiper_img_2} />
           <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_3} />
+          <img className="coverflow-styled-image  swiper-lazy" data-src={cf_swiper_img_3} />
           <div className="swiper-lazy-preloader" />
         </div>
         <div className="coverflow-swiper-slide">
-          <img className="coverflow-styled-image  swiper-lazy" src={cf_swiper_img_4} />
+          <img className="coverflow-styled-image  swiper-lazy" data-src={cf_swiper_img_4} />
           <div className="swiper-lazy-preloader" />
         </div>
       </Swiper>
