@@ -28,23 +28,23 @@
     }
 
     return (
-      <Parallax y={[-10, 115]} tagOuter="figure">
+      <Parallax y={[-10, 110]} tagOuter="figure">
         <Swiper {...params}>
           <div className="cube-swiper-slide">
             <img className="cube-styled-image swiper-lazy" src={cf_swiper_img_1} />
-            <div className="swiper-lazy-preloader swiper-lazy-preloader" />
+            <div className="swiper-lazy-preloader" />
           </div>
           <div className="cube-swiper-slide">
             <img className="cube-styled-image swiper-lazy" src={cf_swiper_img_2} />
-            <div className="swiper-lazy-preloader swiper-lazy-preloader" />
+            <div className="swiper-lazy-preloader" />
           </div>
           <div className="cube-swiper-slide">
             <img className="cube-styled-image swiper-lazy" src={cf_swiper_img_3} />
-            <div className="swiper-lazy-preloader swiper-lazy-preloader" />
+            <div className="swiper-lazy-preloader" />
           </div>
           <div className="cube-swiper-slide">
             <img className="cube-styled-image swiper-lazy" src={cf_swiper_img_4} />
-            <div className="swiper-lazy-preloader swiper-lazy-preloader" />
+            <div className="swiper-lazy-preloader" />
           </div>
         </Swiper>
       </Parallax>

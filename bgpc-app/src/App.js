@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "@styles/commonStyles.scss";
-import { ParallaxSwiper, CoverflowSwiper, IntroBox, Navbar, CubeSwiper, BGImage, VerticalImage } from "@components";
+import { ParallaxSwiper, CoverflowSwiper, IntroBox, Navbar, CubeSwiper, BGImage, VerticalFlipSwiper } from "@components";
 import { ParallaxProvider } from "react-scroll-parallax";
 import cf_swiper_img_1 from "@images/img1.jpg";
 import cf_swiper_img_2 from "@images/img2.jpg";
@@ -18,11 +18,11 @@ function App() {
         <CoverflowSwiper />
         <CubeSwiper />
         <BGImage imgSrc={cf_swiper_img_2} />
-        <VerticalImage  yOffA={-200} yOffB={-425} imgSrc={cf_swiper_img_1} />
-        <VerticalImage  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_2} />
-        <VerticalImage  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />
-        <VerticalImage  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />
-        <VerticalImage  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_4} />
+        <VerticalFlipSwiper  yOffA={-200} yOffB={-425} imgSrc={cf_swiper_img_1} />
+        <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_2} />
+        <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />
+        <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_3} />
+        <VerticalFlipSwiper  yOffA={120} yOffB={-175} imgSrc={cf_swiper_img_4} />
 
       </div>
     </ParallaxProvider>

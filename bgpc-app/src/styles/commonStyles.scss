@@ -50,3 +50,27 @@ body {
 .swiper-lazy-preloader {
   --swiper-theme-color: #7DFFAD !important;
 }
+
+
+.text-wrap{
+
+  margin: 0;
+  position: relative;
+  width: 100%;
+
+  svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font: bold 100px sans-serif;
+    text-transform: uppercase;
+    
+    .img-layer {
+      fill: url(#p-img);
+    }
+    
+    .gradient-layer {
+      fill: url(#gr-overlay);
+    }
+  }
+}

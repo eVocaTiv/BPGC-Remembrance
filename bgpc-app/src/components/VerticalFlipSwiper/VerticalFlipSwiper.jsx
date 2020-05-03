@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "@styles/verticalImageStyles.scss";
+import "@styles/verticalFlipSwiperStyles.scss";
 import { Parallax } from "react-scroll-parallax";
 import Swiper from 'react-id-swiper';
 import "swiper/css/swiper.css";
 
-const FlipEffect = ({ yOffA, yOffB, imgSrc, isFullHeight }) => {
+const FlipEffect = ({ yOffA, yOffB, imgSrc }) => {
   const params = {
     effect: "flip",
     loop: true,
@@ -20,14 +20,15 @@ const FlipEffect = ({ yOffA, yOffB, imgSrc, isFullHeight }) => {
   return (
     <Parallax y={[yOffA, yOffB]} tagOuter="figure">
       <Swiper {...params}>
-        <div className={`vertical-img-container ${isFullHeight ? 'vertical-img-container-full-ht' : ' '}`}>
-          <img className="vertical-img" src={imgSrc} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+        <div className='vertical-img-container'>
+          <img className="vertical-img swiper-lazy" src={imgSrc} />
+          <div className="swiper-lazy-preloader" />
         </div>
         <div className="vertical-img-container">
-          <img className="vertical-img" src={imgSrc} />
-          {/* <div className="swiper-lazy-preloader swiper-lazy-preloader-black" /> */}
+          <img className="vertical-img swiper-lazy" src={imgSrc} />
+          <div className="swiper-lazy-preloader" />
         </div>
+        
       </Swiper>
     </Parallax>
   );
