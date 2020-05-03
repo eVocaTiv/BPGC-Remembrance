@@ -11,11 +11,10 @@ import { Parallax } from 'react-scroll-parallax';
 const CoverflowSwiper = () => {
   const params = {
     effect: 'coverflow',
-    loop: true,
     lazy: true,
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: '3',
+    slidesPerView: 'auto',
     spaceBetween: 0,
     coverflowEffect: {
       rotate: 50,
