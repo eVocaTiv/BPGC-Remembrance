@@ -8,7 +8,7 @@ export default class IntroBox extends Component {
       <div className="intro-box-container">
         <div className="intro-heading--1">
           <Parallax x={[40, -40]} y={[70, -70]} tagOuter="figure">
-            MEMORIES
+            MEMORIES{'_'}
           </Parallax>
         </div>
 

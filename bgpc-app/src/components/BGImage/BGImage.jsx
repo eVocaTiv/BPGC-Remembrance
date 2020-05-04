@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "@styles/bgImageStyles.scss";
-import { Parallax } from "react-scroll-parallax";
 
 class BGImage extends Component {
   render() {
