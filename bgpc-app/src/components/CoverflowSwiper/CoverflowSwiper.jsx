@@ -10,34 +10,73 @@ import { Parallax } from 'react-scroll-parallax';
 
 const CoverflowSwiper = ({ swiperType }) => {
   const params = {
-    effect: swiperType || null,
+    effect: 'coverflow',
     lazy: true,
     loop: true,
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: '2',
+    slidesPerView: swiperType == 'coverflow-wide' ? 'auto' : 2,
     spaceBetween: 10,
+    freeMode: swiperType == 'coverflow-wide' ? true : false,
     coverflowEffect: {
-      rotate: 50,
+      rotate: swiperType == 'coverflow-wide' ? 15 : 50,
       stretch: 0,
-      depth: 250,
-      modifier: 1,
+      depth: swiperType == 'coverflow-wide' ? 350 : 250,
       slideShadows: false,
     },
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
     },
-    lazy: true,
-    pagination: {
-      el: '.swiper-pagination',
-      dynamicBullets: true,
-    },
+    pagination:
+      swiperType == 'coverflow-wide'
+        ? false
+        : {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          },
+    navigation:
+      swiperType == 'coverflow-wide'
+        ? {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+        : false,
   };
+
+  // TODO **, read imgSrc from props & use loop to assign.
 
   return (
     <Parallax y={[-30, 70]} tagOuter="figure">
       <Swiper clasName="coverflow-swiper-container" {...params}>
+        <div className="coverflow-swiper-slide">
+          <img
+            className="coverflow-styled-image  swiper-lazy"
+            data-src={cf_swiper_img_1}
+          />
+          <div className="swiper-lazy-preloader" />
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img
+            className="coverflow-styled-image  swiper-lazy"
+            data-src={cf_swiper_img_2}
+          />
+          <div className="swiper-lazy-preloader" />
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img
+            className="coverflow-styled-image  swiper-lazy"
+            data-src={cf_swiper_img_3}
+          />
+          <div className="swiper-lazy-preloader" />
+        </div>
+        <div className="coverflow-swiper-slide">
+          <img
+            className="coverflow-styled-image  swiper-lazy"
+            data-src={cf_swiper_img_4}
+          />
+          <div className="swiper-lazy-preloader" />
+        </div>
         <div className="coverflow-swiper-slide">
           <img
             className="coverflow-styled-image  swiper-lazy"
