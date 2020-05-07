@@ -1,0 +1,44 @@
+.footer-container {
+  margin: 0px auto;
+  margin-top: 150vh;
+  margin-bottom: 40vh;
+  width: 10vw;
+  height: 20vh;
+  transition: all 0.5s; /* Transition effect when sliding down (and up) */
+  animation: colorchange 20s;
+ -webkit-animation: colorchange 20s; /* Chrome and Safari */
+ background-color: black;
+ cursor:pointer;
+ color: #7DFFAD;
+ border: 1px solid black;
+ border-radius: 50%;
+ box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);
+ z-index: 999;
+}
+
+.footer-container-wide {
+  width: 80vw;
+  color: black;
+  font-weight: bold;  
+  border-radius: 2px;
+  border: 1px solid #f2faff;
+  background-color: #f2faff;
+}
+
+.footer-items-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 42.5% auto;
+  z-index: 1;
+}
+
+.disable-with-color-change {
+  pointer-events: none;
+  color: black;
+}

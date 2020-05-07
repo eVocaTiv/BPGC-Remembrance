@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "@styles/introBoxStyles.scss";
 import { Parallax } from 'react-scroll-parallax';
  
-export default class IntroBox extends Component {
+class IntroBox extends Component {
   render() {
     return (
       <div className="intro-box-container">
@@ -22,3 +22,5 @@ export default class IntroBox extends Component {
     );
   }
 }
+
+export default IntroBox;

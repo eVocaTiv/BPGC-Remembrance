@@ -10,6 +10,7 @@ import {
   BGImage,
   VerticalFlipSwiper,
   BGImageParallax,
+  Footer,
 } from '@components';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import cf_swiper_img_1 from '@images/img1.jpg';
@@ -39,6 +40,7 @@ function App() {
         <VerticalFlipSwiper yOffA={10} yOffB={50} imgSrc={cf_swiper_img_3} />
         <BGImageParallax doubleHeight imageNumber={1} yOffA={-20} yOffB={10} />
         <CoverflowSwiper swiperType="coverflow-wide" />
+        <Footer />
       </div>
     </ParallaxProvider>
   );
