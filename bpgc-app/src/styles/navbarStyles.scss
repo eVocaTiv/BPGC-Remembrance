@@ -4,9 +4,15 @@
   position: fixed; /* Make it stick/fixed */
   top: 0;
   background: black;
+  opacity: 0.75;
   overflow: hidden;
-  z-index: 999;
-  transition: all 0.5s; /* Transition effect when sliding down (and up) */
+  z-index: 998;
+  transition: all 0.5s;
+  backdrop-filter: blur(50px);
+}
+
+.navbar-container:hover {
+  opacity: 1;
 }
 
 .nav-items-div {
@@ -22,4 +28,20 @@
   color: #f2faff;
   font-size: 15px;
   margin: 10px 50px;
+  transition: all 0.25s;
+}
+
+.nav-item > a:hover {
+  color: #7DFFAD;
+}
+
+.nav-item:hover {
+  transform: translateX(-0.5rem);
+}
+
+.nav-item > a {
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #f2faff;
+  z-index: 999;
 }

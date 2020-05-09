@@ -6,8 +6,8 @@ class Navbar extends Component {
     return (
       <div className="navbar-container">
         <div className="nav-items-div">
-          <span className="nav-item">Kunal Dewan</span>
-          <span className="nav-item">Logo</span>
+          <span className="nav-item"><a target="_blank" href="https://kunaldewan.com">Kunal Dewan</a></span>
+          <span className="nav-item"><a target="_blank" href="https://github.com/eVocaTiv/BPGC-Remembrance">Project GitHub</a></span>
         </div>
       </div>
     );
