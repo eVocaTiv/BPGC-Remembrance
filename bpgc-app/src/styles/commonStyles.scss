@@ -1,14 +1,3 @@
-body {
-  overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: #f2faff;
-}
-
-html {
-  box-sizing: border-box;
-}
-
 /* fonts  */
 
 /* Archivo Black */
@@ -27,8 +16,15 @@ html {
   font-style: normal;
 }
 
-.anim-smooth {
-  transition: all 0.5s ease;
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f2faff;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 // overriding swiper's default styles.

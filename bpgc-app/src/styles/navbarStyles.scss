@@ -8,7 +8,7 @@
   overflow: hidden;
   z-index: 998;
   transition: all 0.5s;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
 }
 
 .navbar-container:hover {
@@ -28,7 +28,7 @@
   color: #f2faff;
   font-size: 15px;
   margin: 10px 50px;
-  transition: all 0.25s;
+  transition: all 0.5s;
 }
 
 .nav-item > a:hover {

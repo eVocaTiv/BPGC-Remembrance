@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import '@styles/commonStyles.scss';
 import {
@@ -27,6 +27,7 @@ import bgImage1 from '@images/bgImages/borkars.jpg';
 import bgImage2 from '@images/bgImages/lightning.jpg';
 
 function App() {
+
   return (
     <ParallaxProvider>
       <div className="App">
@@ -54,11 +55,7 @@ function App() {
           yOffB={-40}
           images={[cf_swiper_img_2, cf_swiper_img_3]}
         />
-        <VerticalFlipSwiper
-          yOffA={10}
-          yOffB={50}
-          images={[v4img1]}
-        />
+        <VerticalFlipSwiper yOffA={10} yOffB={50} images={[v4img1]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={-20} yOffB={10} />
         <CoverflowSwiper swiperType="coverflow-wide" />
         <CoverflowSwiper swiperType="mine" />
