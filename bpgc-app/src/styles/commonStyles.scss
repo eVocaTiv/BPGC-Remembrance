@@ -10,7 +10,7 @@
 
 /* Roboto Thin */
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   src: url("./typography/Roboto-Thin.ttf");
   font-weight: normal;
   font-style: normal;
@@ -31,7 +31,6 @@ html {
 .swiper-button-next,
 .swiper-button-prev {
   color: #7DFFAD !important;
-  // display: none !important;
 }
 
 .swiper-pagination-bullet{
@@ -51,28 +50,4 @@ html {
 .swiper-lazy-preloader {
   --swiper-theme-color: #5050CC !important;
   z-index: 999 !important;
-}
-
-
-.text-wrap{
-
-  margin: 0;
-  position: relative;
-  width: 100%;
-
-  svg {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    font: bold 100px sans-serif;
-    text-transform: uppercase;
-    
-    .img-layer {
-      fill: url(#p-img);
-    }
-    
-    .gradient-layer {
-      fill: url(#gr-overlay);
-    }
-  }
 }

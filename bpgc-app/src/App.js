@@ -25,7 +25,6 @@ import v4img1 from '@images/verticalImages/v4img1.jpg';
 
 import bgImage1 from '@images/bgImages/borkars.jpg';
 import bgImage2 from '@images/bgImages/lightning.jpg';
-
 function App() {
 
   return (
