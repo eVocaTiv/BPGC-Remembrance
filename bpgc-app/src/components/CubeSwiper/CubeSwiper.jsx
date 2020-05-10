@@ -13,10 +13,10 @@ const CubeEffect = () => {
 
   const getImageItems = () => {
     return cubeImages.map((img) => (
-      <div key={img} className="cube-swiper-slide">
-        <img className="cube-styled-image swiper-lazy" data-src={img} />
-        <div className="swiper-lazy-preloader" />
-      </div>
+        <div key={img} className="cube-swiper-slide">
+          <img className="cube-styled-image swiper-lazy" data-src={img} />
+          <div className="swiper-lazy-preloader" />
+        </div>
     ));
   };
 

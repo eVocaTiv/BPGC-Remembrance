@@ -32,6 +32,8 @@ import cf_wide_img_13 from '@images/coverflowImages/wide/img13.jpg';
 import cf_mine_img_1 from '@images/coverflowImages/mine/img1.jpg';
 import cf_mine_img_2 from '@images/coverflowImages/mine/img2.jpg';
 
+import LazyLoad from 'react-lazyload';
+
 const normalCoverflowImages = [
   cf_swiper_img_1,
   cf_swiper_img_2,
@@ -59,11 +61,10 @@ const wideCoverflowImages = [
 
 const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2];
 
-const CoverflowSwiper = ({ swiperType }) => {
+const CoverflowSwiper = ({ swiperType, autoPlay}) => {
   const params = {
     effect: 'coverflow',
     lazy: true,
-    loop: true,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: swiperType === 'coverflow-wide' ? 'auto' : 2,
@@ -75,10 +76,10 @@ const CoverflowSwiper = ({ swiperType }) => {
       depth: swiperType === 'coverflow-wide' ? 350 : 250,
       slideShadows: false,
     },
-    autoplay: {
-      delay: 2500,
+    autoplay: autoPlay ? {
+      delay: 3000,
       disableOnInteraction: false,
-    },
+    } : false, 
     pagination:
       swiperType === 'coverflow-wide'
         ? false
@@ -104,8 +105,12 @@ const CoverflowSwiper = ({ swiperType }) => {
         : normalCoverflowImages;
     return imageSet.map((img) => (
       <div key={img} className="coverflow-swiper-slide">
-        <img className="coverflow-styled-image  swiper-lazy" data-src={img} />
-        <div className="swiper-lazy-preloader" />
+          <div>
+        <LazyLoad>
+          <img className="coverflow-styled-image  swiper-lazy" data-src={img} />
+          <div className="swiper-lazy-preloader" />
+        </LazyLoad>
+          </div>
       </div>
     ));
   };
