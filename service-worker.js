@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BPGC-Remembrance/precache-manifest.dc769342302ca446824649bddbc25c1c.js"
+  "/BPGC-Remembrance/precache-manifest.ad1b156035899c1f3aae23512530173d.js"
 );
 
 self.addEventListener('message', (event) => {
