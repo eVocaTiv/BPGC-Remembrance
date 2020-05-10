@@ -1,7 +1,6 @@
 .parallax-swiper-top-slide  {
   box-sizing: border-box;
   height: 70vh;
-  width: 60vw;
   font-family: 'Roboto', sans-serif;
   color: #f2faff;
   &_heading {
@@ -41,6 +40,10 @@
   -moz-box-shadow:    0 40px 40px 0 rgba(0, 0, 0, 0.26);  /* Firefox 3.5 - 3.6 */
   box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);}
 
+.parallax-swiper-container {
+  height: 120vh;
+}
+
 .parallax-bg {
   position: absolute;
   left: 0;
@@ -56,4 +59,6 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  transform:translatez(0);
+  -webkit-transform:translatez(0);
 }

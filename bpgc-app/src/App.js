@@ -23,8 +23,6 @@ import v3img1 from '@images/verticalImages/v3img1.jpg';
 import v3img2 from '@images/verticalImages/v3img2.jpg';
 import v4img1 from '@images/verticalImages/v4img1.jpg';
 
-import bgImage1 from '@images/bgImages/borkars.jpg';
-import bgImage2 from '@images/bgImages/lightning.jpg';
 function App() {
 
   return (

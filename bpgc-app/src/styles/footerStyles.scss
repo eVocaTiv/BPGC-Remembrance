@@ -18,11 +18,12 @@
 
 .footer-container-wide {
   width: 80vw;
-  color: black;
+  color: #7DFFAD;
   font-weight: bold;  
   border-radius: 2px;
   border: 1px solid #f2faff;
-  background-color: #f2faff;
+  background-color: black;
+  opacity: 0.75;
 }
 
 .footer-items-div {
@@ -40,5 +41,5 @@
 
 .disable-with-color-change {
   pointer-events: none;
-  color: black;
+  color: #7DFFAD;
 }

@@ -1,24 +1,25 @@
+
 /* fonts  */
 
 /* Archivo Black */
 @font-face {
-  font-family: "Archivo Black", sans-serif;
-  src: url("./typography/ArchivoBlack-Regular.ttf");
+  font-family: 'Archivo Black', sans-serif;
+  src: url('./typography/ArchivoBlack-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 /* Roboto Thin */
 @font-face {
-  font-family: "Roboto", sans-serif;
-  src: url("./typography/Roboto-Thin.ttf");
+  font-family: 'Roboto', sans-serif;
+  src: url('./typography/Roboto-Thin.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #f2faff;
 }
@@ -30,16 +31,16 @@ html {
 // overriding swiper's default styles.
 .swiper-button-next,
 .swiper-button-prev {
-  color: #7DFFAD !important;
+  color: #7dffad !important;
 }
 
-.swiper-pagination-bullet{
-  background: #7DFFAD !important;
+.swiper-pagination-bullet {
+  background: #7dffad !important;
   opacity: 0.5 !important;
 }
 
-.swiper-pagination-bullet-active{
-  background: #5050CC !important;
+.swiper-pagination-bullet-active {
+  background: #5050cc !important;
   opacity: 1 !important;
 }
 
@@ -48,6 +49,6 @@ html {
 }
 
 .swiper-lazy-preloader {
-  --swiper-theme-color: #5050CC !important;
+  --swiper-theme-color: #5050cc !important;
   z-index: 999 !important;
 }

@@ -1,13 +1,16 @@
 .bg-img-container-parallax {
   width: 100%;
   height: 100vh;
-  background-color: transparent;
+  background-color: #8AFFF7;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  transform: translatez(0);
+  -webkit-transform:translatez(0);
+   z-index: -1;
 }
 
 .bg-img-container-parallax--1 {
@@ -15,9 +18,6 @@
 }
 
 .bg-img-container-parallax--2 {
-  background-image: url('../images/bgImages/comet.jpg');
+  background-image: url('../images/comet.jpg');
   background-position: bottom;
-}
-
-.bg-img-container-parallax--3 {
 }

@@ -33,6 +33,7 @@
 
 .nav-item > a:hover {
   color: #7DFFAD;
+  border-color:  #5050CC;
 }
 
 .nav-item:hover {
@@ -44,4 +45,9 @@
   text-decoration: none;
   color: #f2faff;
   z-index: 999;
+  padding: 4px;
+  border: 2px solid;
+  border-color: transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
 }
