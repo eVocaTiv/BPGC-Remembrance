@@ -7,39 +7,43 @@ import LazyLoad from 'react-lazyload';
 
 const FlipEffect = ({ yOffA, yOffB, images, preload }) => {
   const getImageItems = () => {
-    if(preload) {
-      return images.map((img) => (
+    // work around lazy load bug for 1st image.
+    return images.map((img, index) => {
+      if (index === 0) {
+        return (
+          <div key={img} className="vertical-img-container">
+            <LazyLoad>
+              <img className="vertical-img" src={img} />
+            </LazyLoad>
+          </div>
+        );
+      }
+      return (
         <div key={img} className="vertical-img-container">
-          <img className="vertical-img swiper-lazy" data-src={img} />
-          <div className="swiper-lazy-preloader" />
+          <LazyLoad>
+            <img className="vertical-img swiper-lazy" data-src={img} />
+            <div className="swiper-lazy-preloader" />
+          </LazyLoad>
         </div>
-      ));
-    }
-    return images.map((img) => (
-      <div key={img} className="vertical-img-container">
-        <LazyLoad>
-          <img className="vertical-img swiper-lazy" data-src={img} />
-          <div className="swiper-lazy-preloader" />
-        </LazyLoad>
-      </div>
-    ));
+      );
+    });
   };
 
   const params = {
     effect: 'flip',
     lazy: true,
-    // grabCursor: images.length > 1,
-    // pagination:
-    //   images.length > 1
-    //     ? {
-    //         el: '.swiper-pagination',
-    //         dynamicBullets: true,
-    //       }
-    //     : {},
-    autoplay:{
-          delay: 3000,
-          disableOnInteraction: false,
-        },
+    grabCursor: images.length > 1,
+    pagination:
+      images.length > 1
+        ? {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          }
+        : {},
+    // autoplay:{
+    //       delay: 3000,
+    //       disableOnInteraction: false,
+    //     },
   };
   return (
     <Parallax y={[yOffA, yOffB]} tagOuter="figure">

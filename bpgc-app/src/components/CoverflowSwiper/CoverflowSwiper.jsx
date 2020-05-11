@@ -61,25 +61,27 @@ const wideCoverflowImages = [
 
 const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2];
 
-const CoverflowSwiper = ({ swiperType, autoPlay}) => {
+const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
   const params = {
     effect: 'coverflow',
     lazy: true,
     grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: swiperType === 'coverflow-wide' ? 'auto' : 2,
+    centeredSlides,
+    slidesPerView: swiperType === 'coverflow-wide' ? 1 : 2,
     spaceBetween: 10,
-    freeMode: swiperType === 'coverflow-wide' ? true : false,
+    freeMode: false,
     coverflowEffect: {
       rotate: swiperType === 'coverflow-wide' ? 15 : 50,
       stretch: 0,
       depth: swiperType === 'coverflow-wide' ? 350 : 250,
-      slideShadows: false,
+      slideShadows: true,
     },
-    autoplay: autoPlay ? {
-      delay: 3000,
-      disableOnInteraction: false,
-    } : false, 
+    autoplay: autoPlay
+      ? {
+          delay: 5000,
+          disableOnInteraction: false,
+        }
+      : false,
     pagination:
       swiperType === 'coverflow-wide'
         ? false
@@ -87,13 +89,6 @@ const CoverflowSwiper = ({ swiperType, autoPlay}) => {
             el: '.swiper-pagination',
             dynamicBullets: true,
           },
-    navigation:
-      swiperType === 'coverflow-wide'
-        ? {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }
-        : false,
   };
 
   const getImageItems = () => {
@@ -103,16 +98,29 @@ const CoverflowSwiper = ({ swiperType, autoPlay}) => {
         : swiperType === 'mine'
         ? myCoverflowImages
         : normalCoverflowImages;
-    return imageSet.map((img) => (
-      <div key={img} className="coverflow-swiper-slide">
-          <div>
-        <LazyLoad>
-          <img className="coverflow-styled-image  swiper-lazy" data-src={img} />
-          <div className="swiper-lazy-preloader" />
-        </LazyLoad>
+
+    return imageSet.map((img, index) => {
+      if (index === 0) {
+        return (
+          <div key={img} className="coverflow-swiper-slide">
+            <LazyLoad>
+              <img className="coverflow-styled-image" src={img} />
+            </LazyLoad>
           </div>
-      </div>
-    ));
+        );
+      }
+      return (
+        <div key={img} className="coverflow-swiper-slide">
+          <LazyLoad>
+            <img
+              className="coverflow-styled-image  swiper-lazy"
+              data-src={img}
+            />
+            <div className="swiper-lazy-preloader" />
+          </LazyLoad>
+        </div>
+      );
+    });
   };
 
   return (
