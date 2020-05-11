@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BPGC-Remembrance/static/css/main.df4b6b17.chunk.css",
-    "main.js": "/BPGC-Remembrance/static/js/main.fdb04a40.chunk.js",
-    "main.js.map": "/BPGC-Remembrance/static/js/main.fdb04a40.chunk.js.map",
+    "main.js": "/BPGC-Remembrance/static/js/main.f363ca9b.chunk.js",
+    "main.js.map": "/BPGC-Remembrance/static/js/main.f363ca9b.chunk.js.map",
     "runtime-main.js": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js",
     "runtime-main.js.map": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js.map",
     "static/css/2.508070a3.chunk.css": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css",
     "static/js/2.8e5ecb0e.chunk.js": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js",
     "static/js/2.8e5ecb0e.chunk.js.map": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js.map",
     "index.html": "/BPGC-Remembrance/index.html",
-    "precache-manifest.660c735963ce1a166cd99204bb1bdcba.js": "/BPGC-Remembrance/precache-manifest.660c735963ce1a166cd99204bb1bdcba.js",
+    "precache-manifest.35dd284d3c5389290194bb72af669c34.js": "/BPGC-Remembrance/precache-manifest.35dd284d3c5389290194bb72af669c34.js",
     "service-worker.js": "/BPGC-Remembrance/service-worker.js",
     "static/css/2.508070a3.chunk.css.map": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css.map",
     "static/css/main.df4b6b17.chunk.css.map": "/BPGC-Remembrance/static/css/main.df4b6b17.chunk.css.map",
@@ -48,6 +48,6 @@
     "static/css/2.508070a3.chunk.css",
     "static/js/2.8e5ecb0e.chunk.js",
     "static/css/main.df4b6b17.chunk.css",
-    "static/js/main.fdb04a40.chunk.js"
+    "static/js/main.f363ca9b.chunk.js"
   ]
 }
