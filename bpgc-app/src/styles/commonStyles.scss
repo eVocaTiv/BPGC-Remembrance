@@ -1,4 +1,3 @@
-
 /* fonts  */
 
 /* Archivo Black */
@@ -51,4 +50,27 @@ html {
 .swiper-lazy-preloader {
   --swiper-theme-color: #5050cc !important;
   z-index: 999 !important;
+}
+
+// Webkit Scrollbar styling
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgba(80, 80, 204, 1), rgba(125, 255, 173, 1));
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-track-piece {
+  opacity: 0;
 }
