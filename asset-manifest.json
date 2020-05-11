@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BPGC-Remembrance/static/css/main.203e0bad.chunk.css",
+    "main.css": "/BPGC-Remembrance/static/css/main.df4b6b17.chunk.css",
     "main.js": "/BPGC-Remembrance/static/js/main.380037c4.chunk.js",
     "main.js.map": "/BPGC-Remembrance/static/js/main.380037c4.chunk.js.map",
     "runtime-main.js": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js",
@@ -9,10 +9,10 @@
     "static/js/2.8e5ecb0e.chunk.js": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js",
     "static/js/2.8e5ecb0e.chunk.js.map": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js.map",
     "index.html": "/BPGC-Remembrance/index.html",
-    "precache-manifest.c7e1cd4285a7d36b4351c344adf16e65.js": "/BPGC-Remembrance/precache-manifest.c7e1cd4285a7d36b4351c344adf16e65.js",
+    "precache-manifest.cd37b2f66be94779ce20b0e6a2b3cf4c.js": "/BPGC-Remembrance/precache-manifest.cd37b2f66be94779ce20b0e6a2b3cf4c.js",
     "service-worker.js": "/BPGC-Remembrance/service-worker.js",
     "static/css/2.508070a3.chunk.css.map": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css.map",
-    "static/css/main.203e0bad.chunk.css.map": "/BPGC-Remembrance/static/css/main.203e0bad.chunk.css.map",
+    "static/css/main.df4b6b17.chunk.css.map": "/BPGC-Remembrance/static/css/main.df4b6b17.chunk.css.map",
     "static/js/2.8e5ecb0e.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js.LICENSE.txt",
     "static/media/commonStyles.scss": "/BPGC-Remembrance/static/media/Roboto-Thin.321de678.ttf",
     "static/media/parallaxSwiperStyles.scss": "/BPGC-Remembrance/static/media/bpgc-parallax.24775f7c.jpg",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.24c5a805.js",
     "static/css/2.508070a3.chunk.css",
     "static/js/2.8e5ecb0e.chunk.js",
-    "static/css/main.203e0bad.chunk.css",
+    "static/css/main.df4b6b17.chunk.css",
     "static/js/main.380037c4.chunk.js"
   ]
 }
