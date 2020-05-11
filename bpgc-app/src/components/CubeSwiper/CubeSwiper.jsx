@@ -18,9 +18,7 @@ const CubeEffect = () => {
       if (index === 0) {
         return (
           <div key={img} className="cube-swiper-slide">
-            <LazyLoad>
               <img className="cube-styled-image" src={img} />
-            </LazyLoad>
           </div>
         );
       }

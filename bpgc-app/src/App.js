@@ -35,8 +35,8 @@ function App() {
         <BGImage imgSrc={cf_swiper_img_1} />
         <VerticalFlipSwiper
           preload
-          yOffA={-250}
-          yOffB={-475}
+          yOffA={-200}
+          yOffB={-425}
           images={[v1img1]}
         />
         <VerticalFlipSwiper
