@@ -30,7 +30,7 @@ function App() {
         <Navbar />
         <IntroBox />
         <ParallaxSwiper />
-        <CoverflowSwiper  centeredSlides />
+        <CoverflowSwiper autoPlay centeredSlides />
         <CubeSwiper />
         <BGImage imgSrc={bgImageKeyboard} />
         <VerticalFlipSwiper
@@ -53,8 +53,8 @@ function App() {
         <VerticalFlipSwiper yOffA={180} yOffB={-40} images={[v5img1, v5img2]} />
         <VerticalFlipSwiper preload yOffA={10} yOffB={50} images={[v4img1]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={-20} yOffB={10} />
-        <CoverflowSwiper  centeredSlides swiperType="coverflow-wide" />
-        <CoverflowSwiper  swiperType="mine" />
+        <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
+        <CoverflowSwiper autoPlay swiperType="mine" />
         <Footer />
       </div>
     </ParallaxProvider>
