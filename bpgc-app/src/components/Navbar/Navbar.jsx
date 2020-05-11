@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import '@styles/navbarStyles.scss';
 
 class Navbar extends Component {
-  componentDidMount = () => {
-    window.scrollTo(0, 0);
-  };
-  
+  componentDidMount() {
+    this._div.scrollTop = 0;
+  }
+
   render() {
     return (
-      <div className="navbar-container">
+      <div ref={(ref) => (this._div = ref)} className="navbar-container">
         <div className="nav-items-div">
           <span className="nav-item">
             <a target="_blank" href="https://kunaldewan.com">
