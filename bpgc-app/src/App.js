@@ -33,7 +33,7 @@ function App() {
         <CoverflowSwiper autoPlay />
         <CubeSwiper />
         <BGImage imgSrc={cf_swiper_img_1} />
-        <VerticalFlipSwiper yOffA={-250} yOffB={-475} images={[v1img1]} />
+        <VerticalFlipSwiper preload yOffA={-250} yOffB={-475} images={[v1img1]} />
         <VerticalFlipSwiper
           yOffA={120}
           yOffB={-210}
@@ -46,7 +46,7 @@ function App() {
         />
         <BGImageParallax imageNumber={1} yOffA={150} yOffB={-70} />
         <VerticalFlipSwiper yOffA={180} yOffB={-40} images={[v5img1, v5img2]} />
-        <VerticalFlipSwiper yOffA={10} yOffB={50} images={[v4img1]} />
+        <VerticalFlipSwiper preload yOffA={10} yOffB={50} images={[v4img1]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={-20} yOffB={10} />
         <CoverflowSwiper autoPlay swiperType="coverflow-wide" />
         <CoverflowSwiper autoPlay swiperType="mine" />
