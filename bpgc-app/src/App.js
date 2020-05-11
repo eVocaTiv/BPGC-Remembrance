@@ -13,7 +13,7 @@ import {
   Footer,
 } from '@components';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import cf_swiper_img_1 from '@images/img1.jpg';
+import bgImageKeyboard from '@images/img1.jpg';
 import v1img1 from '@images/verticalImages/v1img1.jpg';
 import v2img1 from '@images/verticalImages/v2img1.jpg';
 import v2img2 from '@images/verticalImages/v2img2.jpg';
@@ -32,7 +32,7 @@ function App() {
         <ParallaxSwiper />
         <CoverflowSwiper  centeredSlides />
         <CubeSwiper />
-        <BGImage imgSrc={cf_swiper_img_1} />
+        <BGImage imgSrc={bgImageKeyboard} />
         <VerticalFlipSwiper
           preload
           yOffA={-200}

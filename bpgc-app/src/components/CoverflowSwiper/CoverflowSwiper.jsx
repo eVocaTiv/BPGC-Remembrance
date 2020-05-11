@@ -103,8 +103,8 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
       if (index === 0) {
         return (
           <div key={img} className="coverflow-swiper-slide">
-            <LazyLoad>
-              <img className="coverflow-styled-image" src={img} />
+            <LazyLoad placeholder={<div>loading...</div>}>
+              <img className="coverflow-styled-image" />
             </LazyLoad>
           </div>
         );
