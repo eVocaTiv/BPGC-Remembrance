@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ebb9fee9e13b558e0b06405d95ec1a3",
+    "revision": "6c154f79c91089c7ffe7ef6858682922",
     "url": "/BPGC-Remembrance/index.html"
   },
   {
-    "revision": "7385c3901353dd8f33ce",
+    "revision": "fae5f501d35b9c9a1f10",
     "url": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css"
   },
   {
-    "revision": "75b97d49afe24c681d24",
-    "url": "/BPGC-Remembrance/static/css/main.3dda876b.chunk.css"
+    "revision": "06f84278637828932b8b",
+    "url": "/BPGC-Remembrance/static/css/main.203e0bad.chunk.css"
   },
   {
-    "revision": "7385c3901353dd8f33ce",
-    "url": "/BPGC-Remembrance/static/js/2.02fb800a.chunk.js"
+    "revision": "fae5f501d35b9c9a1f10",
+    "url": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/BPGC-Remembrance/static/js/2.02fb800a.chunk.js.LICENSE.txt"
+    "url": "/BPGC-Remembrance/static/js/2.8e5ecb0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75b97d49afe24c681d24",
-    "url": "/BPGC-Remembrance/static/js/main.e99ead61.chunk.js"
+    "revision": "06f84278637828932b8b",
+    "url": "/BPGC-Remembrance/static/js/main.9a0009f8.chunk.js"
   },
   {
     "revision": "ad4d07b0e587564a3775",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/Roboto-Thin.321de678.ttf"
   },
   {
-    "revision": "b6910d198b05bec16e1a18efa55f8584",
-    "url": "/BPGC-Remembrance/static/media/bpgc-parallax.b6910d19.jpg"
+    "revision": "24775f7c1b297c36c26987186717fa72",
+    "url": "/BPGC-Remembrance/static/media/bpgc-parallax.24775f7c.jpg"
   },
   {
-    "revision": "87126f18ae85ddee566eb3e4d13e8869",
-    "url": "/BPGC-Remembrance/static/media/comet.87126f18.jpg"
+    "revision": "ff0976a400157847d5a536ed1ff300a8",
+    "url": "/BPGC-Remembrance/static/media/comet.ff0976a4.jpg"
   },
   {
     "revision": "db909a3734db474842183d85242767a5",
@@ -56,8 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/cube3.ccb39b10.jpg"
   },
   {
-    "revision": "44894ee19f073701d39972c9f9560ae3",
-    "url": "/BPGC-Remembrance/static/media/cube4.44894ee1.jpg"
+    "revision": "6959eff5a4b6e0685e648d33cc0a9f55",
+    "url": "/BPGC-Remembrance/static/media/cube4.6959eff5.jpg"
+  },
+  {
+    "revision": "7ab8ca2ca536a2b36b1bd8c37c702178",
+    "url": "/BPGC-Remembrance/static/media/img1.7ab8ca2c.jpg"
   },
   {
     "revision": "b94cccda6aa05aec0f4e05099e5e5a93",
@@ -66,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e86eb31eb7a8e7c4bb03fc40704cf792",
     "url": "/BPGC-Remembrance/static/media/img1.e86eb31e.jpg"
-  },
-  {
-    "revision": "f52ff57f91db6a216b6692389063674b",
-    "url": "/BPGC-Remembrance/static/media/img1.f52ff57f.jpg"
   },
   {
     "revision": "fdd6953a244ff67516d601964b40644c",
