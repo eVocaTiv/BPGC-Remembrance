@@ -11,7 +11,9 @@ import {
   VerticalFlipSwiper,
   BGImageParallax,
   Footer,
+  NotFoundPage,
 } from '@components';
+import { checkForInvalidBrowser } from '@utils/helpers';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import bgImageKeyboard from '@images/img1.jpg';
 import v1img1 from '@images/verticalImages/v1img1.jpg';
@@ -24,6 +26,10 @@ import v5img1 from '@images/verticalImages/v5img1.jpg';
 import v5img2 from '@images/verticalImages/v5img2.jpg';
 
 function App() {
+  if (checkForInvalidBrowser()) {
+    return <NotFoundPage />;
+  }
+
   return (
     <ParallaxProvider>
       <div className="App">

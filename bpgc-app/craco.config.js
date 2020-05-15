@@ -13,6 +13,7 @@ module.exports = {
           "@components": "./src/components/",
           "@images": "./src/images/",
           "@styles": "./src/styles/",
+          "@utils": "./src/utils/",
         }
       }
     }

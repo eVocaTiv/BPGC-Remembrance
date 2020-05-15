@@ -7,3 +7,4 @@ export { VerticalFlipSwiper } from "./VerticalFlipSwiper";
 export { BGImage } from "./BGImage";
 export { BGImageParallax } from "./BGImageParallax";
 export { Footer } from "./Footer";
+export { NotFoundPage } from "./404";
