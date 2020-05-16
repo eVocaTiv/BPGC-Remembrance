@@ -1,43 +1,79 @@
-.parallax-swiper-top-slide  {
+.parallax-swiper-top-slide {
   box-sizing: border-box;
   height: 70vh;
-  font-family: 'Roboto', Arial;
+  font-family: "Roboto", Arial;
   color: #f2faff;
   &_heading {
     position: absolute;
     left: 10%;
     top: 5%;
-    font-size: 72px;
+    font-size: 4rem;
     text-transform: uppercase;
   }
   &_sub-heading {
     font-size: 40px;
     position: absolute;
-    top: 0%;
+    top: 10%;
   }
   &_data {
     position: absolute;
     left: 70%;
     top: 10%;
     width: 25%;
-    font-family: 'Roboto', Arial;
+    font-family: "Roboto", Arial;
   }
 }
 
+@media only screen and (max-width: 1000px) {
+
+  .parallax-swiper-top-slide--2 {
+    background-color: black !important;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .parallax-swiper-top-slide {
+    &_sub-heading {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .parallax-swiper-top-slide {
+    &_heading {
+      font-size: 2.5rem !important;
+      left: 15%;
+    }
+  }
+  .parallax-swiper-top-slide {
+    &_data {
+      position: absolute;
+      left: 12.5%;
+      top: 35%;
+      width: 75%;
+      font-family: "Roboto", Arial;
+    }
+}
+}
+
+
 .parallax-swiper-top-slide--2 {
-  background-color: rgba(125, 195, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .parallax-swiper-top-slide--3 {
-  background-color: rgb(80, 80, 204)
+  background-color: rgb(80, 80, 204);
 }
 
 .swiper-container-initialized {
   width: 80vw;
   margin: 20vh auto;
-  -webkit-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    0 40px 40px 0 rgba(0, 0, 0, 0.26);  /* Firefox 3.5 - 3.6 */
-  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);}
+  -webkit-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);
+}
 
 .parallax-swiper-container {
   height: 120vh;
@@ -47,10 +83,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: linear-gradient(
-    rgba(114, 234, 191, 0.5),
-    rgba(0, 0, 0, 0.5) 
-  ), url("../images/bpgc-parallax.jpg");
+  background-image: linear-gradient(rgba(114, 234, 191, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bpgc-parallax.jpg");
   width: 400%;
   height: 100%;
   -webkit-background-size: cover;
@@ -58,6 +91,6 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  transform:translatez(0);
-  -webkit-transform:translatez(0);
+  transform: translatez(0);
+  -webkit-transform: translatez(0);
 }

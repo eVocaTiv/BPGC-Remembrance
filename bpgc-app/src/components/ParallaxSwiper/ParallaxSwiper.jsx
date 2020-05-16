@@ -32,7 +32,7 @@ const ParallaxSwiper = () => {
               Welcome &nbsp;
               <span
                 className="parallax-swiper-top-slide_sub-heading"
-                data-swiper-parallax="900"
+                data-swiper-parallax="600"
               >
                 &#8594;
               </span>
@@ -44,7 +44,9 @@ const ParallaxSwiper = () => {
             className="parallax-swiper-top-slide_heading"
             data-swiper-parallax="-400"
           >
-            Slide #2
+            <Parallax y={[-40, 40]} x={[-220, 120]} tagOuter="figure">
+              Slide #2
+            </Parallax>
           </div>
           <div
             className="parallax-swiper-top-slide_data"
@@ -63,7 +65,9 @@ const ParallaxSwiper = () => {
             className="parallax-swiper-top-slide_heading"
             data-swiper-parallax="-400"
           >
-            Slide #3
+            <Parallax y={[-40, 40]} x={[-220, 120]} tagOuter="figure">
+              Slide #3
+            </Parallax>
           </div>
           <div
             className="parallax-swiper-top-slide_data"
