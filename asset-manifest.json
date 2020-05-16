@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BPGC-Remembrance/static/css/main.b63bab36.chunk.css",
-    "main.js": "/BPGC-Remembrance/static/js/main.3fb923df.chunk.js",
-    "main.js.map": "/BPGC-Remembrance/static/js/main.3fb923df.chunk.js.map",
+    "main.css": "/BPGC-Remembrance/static/css/main.0e8cdbd2.chunk.css",
+    "main.js": "/BPGC-Remembrance/static/js/main.d17559a2.chunk.js",
+    "main.js.map": "/BPGC-Remembrance/static/js/main.d17559a2.chunk.js.map",
     "runtime-main.js": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js",
     "runtime-main.js.map": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js.map",
     "static/css/2.508070a3.chunk.css": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css",
-    "static/js/2.5e151436.chunk.js": "/BPGC-Remembrance/static/js/2.5e151436.chunk.js",
-    "static/js/2.5e151436.chunk.js.map": "/BPGC-Remembrance/static/js/2.5e151436.chunk.js.map",
+    "static/js/2.0aa6cc68.chunk.js": "/BPGC-Remembrance/static/js/2.0aa6cc68.chunk.js",
+    "static/js/2.0aa6cc68.chunk.js.map": "/BPGC-Remembrance/static/js/2.0aa6cc68.chunk.js.map",
     "index.html": "/BPGC-Remembrance/index.html",
-    "precache-manifest.19c695852a7091b7e0367bf41d6f10d4.js": "/BPGC-Remembrance/precache-manifest.19c695852a7091b7e0367bf41d6f10d4.js",
+    "precache-manifest.0a4bc02930b3da53447be9700484bb7d.js": "/BPGC-Remembrance/precache-manifest.0a4bc02930b3da53447be9700484bb7d.js",
     "service-worker.js": "/BPGC-Remembrance/service-worker.js",
     "static/css/2.508070a3.chunk.css.map": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css.map",
-    "static/css/main.b63bab36.chunk.css.map": "/BPGC-Remembrance/static/css/main.b63bab36.chunk.css.map",
-    "static/js/2.5e151436.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.5e151436.chunk.js.LICENSE.txt",
+    "static/css/main.0e8cdbd2.chunk.css.map": "/BPGC-Remembrance/static/css/main.0e8cdbd2.chunk.css.map",
+    "static/js/2.0aa6cc68.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.0aa6cc68.chunk.js.LICENSE.txt",
     "static/media/commonStyles.scss": "/BPGC-Remembrance/static/media/Roboto-Thin.321de678.ttf",
     "static/media/parallaxSwiperStyles.scss": "/BPGC-Remembrance/static/media/bpgc-parallax.24775f7c.jpg",
     "static/media/bgImageStyles.scss": "/BPGC-Remembrance/static/media/comet.ff0976a4.jpg",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.24c5a805.js",
     "static/css/2.508070a3.chunk.css",
-    "static/js/2.5e151436.chunk.js",
-    "static/css/main.b63bab36.chunk.css",
-    "static/js/main.3fb923df.chunk.js"
+    "static/js/2.0aa6cc68.chunk.js",
+    "static/css/main.0e8cdbd2.chunk.css",
+    "static/js/main.d17559a2.chunk.js"
   ]
 }
