@@ -13,7 +13,7 @@ import {
   Footer,
   NotFoundPage,
 } from '@components';
-import { checkForInvalidBrowser } from '@utils/helpers';
+import { checkForInvalidBrowser, mobileCheck } from '@utils/helpers';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import bgImageKeyboard from '@images/img1.jpg';
 import v1img1 from '@images/verticalImages/v1img1.jpg';
@@ -26,7 +26,7 @@ import v5img1 from '@images/verticalImages/v5img1.jpg';
 import v5img2 from '@images/verticalImages/v5img2.jpg';
 
 function App() {
-  if (checkForInvalidBrowser()) {
+  if (checkForInvalidBrowser() || mobileCheck()) {
     return <NotFoundPage />;
   }
 
