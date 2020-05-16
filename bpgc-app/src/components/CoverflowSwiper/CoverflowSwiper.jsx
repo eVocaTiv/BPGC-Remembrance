@@ -68,6 +68,7 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
     grabCursor: true,
     freeMode: false,
     spaceBetween: 0,
+    autoplay: autoPlay,
     coverflowEffect: {
       rotate: swiperType === 'coverflow-wide' ? 15 : 50,
       stretch: 0,
@@ -83,12 +84,10 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
           },
     breakpoints: {
       1024: {
-        autoplay: autoPlay,
         slidesPerView: swiperType === 'coverflow-wide' ? 1 : 2,
         centeredSlides,
       },
       640: {
-        autoplay: false,
         slidesPerView: 1,
         centeredSlides: true,
       },
@@ -98,7 +97,6 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
           stretch: 0,
           depth: 0,
         },
-        autoplay: false,
         slidesPerView: 1,
         centeredSlides: true,
       },

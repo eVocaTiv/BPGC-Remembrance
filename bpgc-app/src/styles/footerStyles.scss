@@ -39,6 +39,13 @@
   z-index: 1;
 }
 
+.credits-item {
+  font-size: 0.9rem;
+  color: white;
+  display: none;
+  margin-top: 2rem;
+}
+
 .disable-with-color-change {
   pointer-events: none;
   color: #7DFFAD;
