@@ -15,6 +15,7 @@ class Footer extends Component {
       document.getElementById('footer-text').style.fontSize = '30px';
       document.getElementById('footer-text').style.margin = ' 2% auto 0 auto';
       document.getElementById('credits-text').style.display = 'block';
+      document.getElementById('credits-text').style.opacity = '1';
     };
 
     return (
@@ -28,7 +29,10 @@ class Footer extends Component {
             © 2020 Kunal Dewan
           </span>
         </div>
-          <span id="credits-text" className="credits-item"><b style={{color: '#7DFFAD'}}>Photos Credits:</b> &nbsp; Dept. of Photography BPGC, Kunal Dewan</span>
+        <span id="credits-text" className="credits-item">
+          <b style={{ color: '#7DFFAD' }}>Photos Credits:</b> &nbsp; Dept. of
+          Photography BPGC, Kunal Dewan &amp; several other BITSians!
+        </span>
       </div>
     );
   }
