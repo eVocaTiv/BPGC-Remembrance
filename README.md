@@ -1,4 +1,4 @@
-## Some fond memories of my undergraduate days at BITS Pilani, K. K. Birla Goa Campus cherished photographically as a website. 
+## Some fond memories of my undergraduate days at BITS Pilani, K. K. Birla Goa Campus cherished photographically as a website. - https://evocativ.github.io/BPGC-Remembrance/
 
 ### Colors & Typography
 <p align="center"><img src="screenshots/colors-typo.jpg" /></p>
