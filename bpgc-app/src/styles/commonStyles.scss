@@ -2,7 +2,7 @@
 
 /* Archivo Black */
 @font-face {
-  font-family: 'Archivo Black', Arial;
+  font-family: 'Archivo Black';
   src: url('./typography/ArchivoBlack-Regular.ttf');
   font-weight: bold;
   font-style: normal;
@@ -10,7 +10,7 @@
 
 /* Roboto Thin */
 @font-face {
-  font-family: 'Roboto', Arial;
+  font-family: 'Roboto';
   src: url('./typography/Roboto-Thin.ttf');
   font-weight: normal;
   font-style: normal;
@@ -18,7 +18,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial;
   -webkit-font-smoothing: antialiased;
   background-color: #f2faff;
 }

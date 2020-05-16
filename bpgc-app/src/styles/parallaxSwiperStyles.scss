@@ -1,7 +1,7 @@
 .parallax-swiper-top-slide  {
   box-sizing: border-box;
   height: 70vh;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial;
   color: #f2faff;
   &_heading {
     position: absolute;
@@ -20,7 +20,7 @@
     left: 70%;
     top: 10%;
     width: 25%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial;
   }
 }
 
