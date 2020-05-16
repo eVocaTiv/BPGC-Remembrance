@@ -1,6 +1,6 @@
 // overriding imported class
 .swiper-container-coverflow {
-  padding: 120px;
+  padding: 120px 0;
   width: 60vw;
   margin-top: 20vh;
   margin-bottom: 50vh;
@@ -10,21 +10,26 @@
 
 .coverflow-swiper-slide {
   box-sizing: border-box;
-  min-width: 300px;
-  min-height: 200px;
+  // min-width: 300px;
+  // min-height: 200px;
   width: 35%;
   font-family: "Roboto", Arial;
 
+  & .normal-img-true {
+    width: 90%;
+  }
+
   & img {
-    width: 100%;
+    width: 80%;
+    height: 100%;
+    margin-top: 1%;
     background-color: silver;
   }
 }
 
 .coverflow-styled-image {
-  outline: 3px solid #5050CC;
-  height: 45vh;
-  -webkit-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26); /* Firefox 3.5 - 3.6 */
-  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.26);
+  outline: 3px solid #5050cc;
+  height: 40vh;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.26);
 }

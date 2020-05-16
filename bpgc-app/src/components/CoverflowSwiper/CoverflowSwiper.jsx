@@ -59,29 +59,21 @@ const wideCoverflowImages = [
   cf_wide_img_13,
 ];
 
-const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2];
+const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2, cf_mine_img_1, cf_mine_img_2, cf_mine_img_1];
 
 const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
   const params = {
     effect: 'coverflow',
     lazy: true,
     grabCursor: true,
-    centeredSlides,
-    slidesPerView: swiperType === 'coverflow-wide' ? 1 : 2,
-    spaceBetween: 10,
     freeMode: false,
+    spaceBetween: 0,
     coverflowEffect: {
       rotate: swiperType === 'coverflow-wide' ? 15 : 50,
       stretch: 0,
       depth: swiperType === 'coverflow-wide' ? 350 : 250,
-      slideShadows: true,
+      slideShadows: false,
     },
-    autoplay: autoPlay
-      ? {
-          delay: 5000,
-          disableOnInteraction: false,
-        }
-      : false,
     pagination:
       swiperType === 'coverflow-wide'
         ? false
@@ -89,7 +81,29 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
             el: '.swiper-pagination',
             dynamicBullets: true,
           },
-  };
+    breakpoints: {
+      1024: {
+        autoplay: autoPlay,
+        slidesPerView: swiperType === 'coverflow-wide' ? 1 : 2,
+        centeredSlides,
+      },
+      640: {
+        autoplay: false,
+        slidesPerView: 1,
+        centeredSlides: true,
+      },
+      475: {
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+        },
+        autoplay: false,
+        slidesPerView: 1,
+        centeredSlides: true,
+      },
+    },
+  };  
 
   const getImageItems = () => {
     let imageSet =
@@ -99,12 +113,17 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
         ? myCoverflowImages
         : normalCoverflowImages;
 
+    let isNormalSwiper = !(
+      swiperType === 'coverflow-wide' || swiperType === 'mine'
+    );
+
     return imageSet.map((img, index) => {
+      let isNormalSwiperImg = 'normal-img-'.concat(isNormalSwiper);
       if (index === 0) {
         return (
-          <div key={img} className="coverflow-swiper-slide">
-            <LazyLoad >
-              <img className="coverflow-styled-image" src={img} />
+          <div key={img} className="coverflow-swiper-slide ">
+            <LazyLoad>
+              <img className={`coverflow-styled-image ${isNormalSwiperImg}`} src={img} />
             </LazyLoad>
           </div>
         );
@@ -113,7 +132,7 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
         <div key={img} className="coverflow-swiper-slide">
           <LazyLoad>
             <img
-              className="coverflow-styled-image  swiper-lazy"
+             className={`coverflow-styled-image ${isNormalSwiperImg} swiper-lazy`} 
               data-src={img}
             />
             <div className="swiper-lazy-preloader" />
