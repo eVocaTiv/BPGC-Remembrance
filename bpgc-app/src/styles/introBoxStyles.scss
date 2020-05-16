@@ -3,10 +3,95 @@
   height: 100vh;
   width: 100vw;
   font-family: 'Archivo Black', Arial;
-  font-size: 120px;
+  font-size: 8rem;
   text-transform: uppercase;
   margin-bottom: 20vh;
+
+
 }
+
+
+@media only screen and (max-width: 1100px) {
+  .intro-box-container {
+    font-size: 6rem;
+  }
+  .intro-heading--1 {
+    top: 24vh !important;
+}
+.intro-heading--2 {
+  font-size: 2.5rem !important;
+}
+}
+
+
+@media only screen and (max-width: 875px) {
+  .intro-box-container {
+    font-size: 5rem;
+  }
+  .intro-heading--1 {
+    top: 29vh !important;
+  }
+  .intro-heading--2 {
+    font-size: 2.25rem !important;
+    top: 47.5vh !important;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .intro-box-container {
+    font-size: 4rem;
+  }
+  .intro-heading--1 {
+    top: 35vh !important;
+  }
+  .intro-heading--2 {
+    font-size: 2rem !important;
+    top: 50vh !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-box-container {
+    font-size: 3rem;
+  }
+  .intro-heading--1 {
+    top: 40vh !important;
+  }
+  .intro-heading--2 {
+    font-size: 1.75rem !important;
+    top: 50vh !important;
+  }
+}
+
+
+@media only screen and (max-width: 525px) {
+  .intro-heading--2 {
+    font-size: 1.5rem !important;
+    left: 30vw !important;
+    top: 50vh !important;
+    width: 70%;
+  }
+}
+
+
+@media only screen and (max-width: 475px) {
+  .intro-heading--1 {
+   left: 10vw !important;
+  }
+  .intro-heading--2 {
+    font-size: 1.25rem !important;
+    top: 51vh !important;
+    left: 20vw !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro-heading--1 {
+    font-size: 2.75rem;
+   left: 2vw !important;
+  }
+}
+
 
 .intro-heading--1 {
   font-family: 'Archivo Black', Arial;
@@ -22,7 +107,7 @@
   position: absolute;
   top: 45vh;
   right: 25vw;
-  font-size: 45px;
+  font-size: 2.85rem;
 }
 
 .intro-heading-bullet {
