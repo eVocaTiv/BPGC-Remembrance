@@ -47,7 +47,7 @@ function App() {
         <VerticalFlipSwiper images={[v5img1, v5img2]} />
         <VerticalFlipSwiper images={[v4img1]} />
         <VerticalFlipSwiper images={[v1img1]} />
-        <BGImageParallax doubleHeight imageNumber={2} yOffA={-20} yOffB={10} />
+        <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
         <CoverflowSwiper className="top-extra-50-margin" autoPlay centeredSlides swiperType="coverflow-wide" />
         <CoverflowSwiper  className="top-extra-50-margin" topMargin autoPlay swiperType="mine" />
         <Footer />
