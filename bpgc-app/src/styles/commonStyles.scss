@@ -56,7 +56,7 @@ html {
 
 // Webkit Scrollbar styling
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 14px;
 }
 
 /* Track */
@@ -66,6 +66,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    border-bottom: 2px solid #f2faff;
-    background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(rgba(80, 80, 204, 1), rgba(125, 255, 173, 1));
+}
+
+.swiper-container-flip > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  margin: 35vh auto;
+}
+
+.top-extra-50-margin {
+  margin-top: 50vh;
 }

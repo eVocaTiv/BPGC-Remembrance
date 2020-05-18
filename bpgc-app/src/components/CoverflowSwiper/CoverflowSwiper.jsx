@@ -141,11 +141,9 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
   };
 
   return (
-    <Parallax y={[-30, 70]} tagOuter="figure">
       <Swiper clasName="coverflow-swiper-container" {...params}>
         {getImageItems()}
       </Swiper>
-    </Parallax>
   );
 };
 

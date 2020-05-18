@@ -10,7 +10,7 @@ const checkForInvalidBrowser = () => {
       return p.toString() === '[object SafariRemoteNotification]';
     })(!window['safari']);
   // prevent IE disable ( 404 )
-  var isFirefox = typeof InstallTrigger !== 'undefined';
+  const isFirefox = typeof InstallTrigger !== 'undefined';
   return isIE || isEdge || isSafari || isFirefox;
 };
 

@@ -37,30 +37,19 @@ function App() {
         <IntroBox />
         <ParallaxSwiper />
         <CoverflowSwiper autoPlay centeredSlides />
-        <CubeSwiper />
         <BGImage imgSrc={bgImageKeyboard} />
-        <VerticalFlipSwiper
-          preload
-          yOffA={-200}
-          yOffB={-425}
-          images={[v1img1]}
-        />
-        <VerticalFlipSwiper
-          yOffA={120}
-          yOffB={-210}
-          images={[v2img1, v2img2]}
-        />
-        <VerticalFlipSwiper
-          yOffA={120}
-          yOffB={-135}
-          images={[v3img1, v3img2]}
-        />
-        <BGImageParallax imageNumber={1} yOffA={150} yOffB={-70} />
-        <VerticalFlipSwiper yOffA={180} yOffB={-40} images={[v5img1, v5img2]} />
-        <VerticalFlipSwiper preload yOffA={10} yOffB={50} images={[v4img1]} />
+        <VerticalFlipSwiper preload images={[v1img1]} />
+        <VerticalFlipSwiper images={[v2img1, v2img2]} />
+        <VerticalFlipSwiper images={[v3img1, v3img2]} />
+        <CubeSwiper />
+
+        <BGImageParallax imageNumber={1} yOffA={100} yOffB={-50} />
+        <VerticalFlipSwiper images={[v5img1, v5img2]} />
+        <VerticalFlipSwiper images={[v4img1]} />
+        <VerticalFlipSwiper images={[v1img1]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={-20} yOffB={10} />
-        <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
-        <CoverflowSwiper autoPlay swiperType="mine" />
+        <CoverflowSwiper className="top-extra-50-margin" autoPlay centeredSlides swiperType="coverflow-wide" />
+        <CoverflowSwiper  className="top-extra-50-margin" topMargin autoPlay swiperType="mine" />
         <Footer />
       </div>
     </ParallaxProvider>

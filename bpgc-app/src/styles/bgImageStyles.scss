@@ -12,6 +12,11 @@
    z-index: -1;
 }
 
+.bg-image {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
 .bg-img-container-parallax--1 {
   background-image: url('../images/bpgc-parallax.jpg');
 }
@@ -19,4 +24,6 @@
 .bg-img-container-parallax--2 {
   background-image: url('../images/comet.jpg');
   background-position: bottom;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }

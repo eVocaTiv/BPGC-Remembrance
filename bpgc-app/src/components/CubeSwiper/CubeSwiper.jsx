@@ -48,9 +48,7 @@ const CubeEffect = () => {
   };
 
   return (
-    <Parallax y={[-10, 110]} tagOuter="figure">
       <Swiper {...params}>{getImageItems()}</Swiper>
-    </Parallax>
   );
 };
 

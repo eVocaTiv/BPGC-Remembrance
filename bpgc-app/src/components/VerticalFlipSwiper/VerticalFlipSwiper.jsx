@@ -5,7 +5,7 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 import LazyLoad from 'react-lazyload';
 
-const FlipEffect = ({ yOffA, yOffB, images, preload }) => {
+const FlipEffect = ({ images }) => {
   const getImageItems = () => {
     // work around lazy load bug for 1st image.
     return images.map((img, index) => {
@@ -40,13 +40,9 @@ const FlipEffect = ({ yOffA, yOffB, images, preload }) => {
             dynamicBullets: true,
           }
         : {},
-    // autoplay:{
-    //       delay: 3000,
-    //       disableOnInteraction: false,
-    //     },
   };
   return (
-    <Parallax y={[yOffA, yOffB]} tagOuter="figure">
+    <Parallax tagOuter="figure">
       <Swiper {...params}>{getImageItems()}</Swiper>
     </Parallax>
   );
