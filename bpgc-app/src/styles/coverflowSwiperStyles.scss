@@ -3,9 +3,14 @@
   padding: 120px 0;
   width: 60vw;
   margin-top: 40vh;
-  margin-bottom: 50vh;
+  margin-bottom: 60vh;
   box-shadow: none !important;
   height: 45vh;
+}
+
+.coverflow-wide {
+  margin-top: 100vh !important;
+  margin-bottom: 70vh !important;
 }
 
 .coverflow-swiper-slide {

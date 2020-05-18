@@ -141,9 +141,11 @@ const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
   };
 
   return (
-      <Swiper clasName="coverflow-swiper-container" {...params}>
+    <div className={` ${swiperType}`}>
+      <Swiper className="coverflow-swiper-container" {...params}>
         {getImageItems()}
       </Swiper>
+    </div>
   );
 };
 

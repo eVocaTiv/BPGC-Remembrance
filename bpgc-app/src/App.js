@@ -48,8 +48,8 @@ function App() {
         <VerticalFlipSwiper images={[v4img1]} />
         <VerticalFlipSwiper images={[v1img1]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
-        <CoverflowSwiper className="top-extra-50-margin" autoPlay centeredSlides swiperType="coverflow-wide" />
-        <CoverflowSwiper  className="top-extra-50-margin" topMargin autoPlay swiperType="mine" />
+        <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
+        <CoverflowSwiper autoPlay swiperType="mine" />
         <Footer />
       </div>
     </ParallaxProvider>
