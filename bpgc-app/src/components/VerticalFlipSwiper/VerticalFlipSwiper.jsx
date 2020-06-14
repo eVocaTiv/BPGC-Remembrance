@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '@styles/verticalFlipSwiperStyles.scss';
 import { Parallax } from 'react-scroll-parallax';
 import Swiper from 'react-id-swiper';

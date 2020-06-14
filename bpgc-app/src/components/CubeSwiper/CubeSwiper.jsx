@@ -6,7 +6,6 @@ import cube1 from '@images/cubeImages/cube1.jpg';
 import cube2 from '@images/cubeImages/cube2.jpg';
 import cube3 from '@images/cubeImages/cube3.jpg';
 import cube4 from '@images/cubeImages/cube4.jpg';
-import { Parallax } from 'react-scroll-parallax';
 
 const CubeEffect = () => {
   const cubeImages = [cube1, cube2, cube3, cube4];

@@ -2,7 +2,6 @@ import React from 'react';
 import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 import '@styles/coverflowSwiperStyles.scss';
-import { Parallax } from 'react-scroll-parallax';
 
 // normal coverflow swiper
 import cf_swiper_img_1 from '@images/coverflowImages/img1.jpg';

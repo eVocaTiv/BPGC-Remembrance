@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '@styles/footerStyles.scss';
-import { Parallax } from 'react-scroll-parallax';
 
 class Footer extends Component {
   render() {
