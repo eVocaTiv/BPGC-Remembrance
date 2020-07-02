@@ -30,6 +30,19 @@ import cf_wide_img_13 from '@images/coverflowImages/wide/img13.jpg';
 // my coverflow swiper
 import cf_mine_img_1 from '@images/coverflowImages/mine/img1.jpg';
 import cf_mine_img_2 from '@images/coverflowImages/mine/img2.jpg';
+import click55 from '@images/clicks/img55.jpg';
+import click56 from '@images/clicks/img56.jpg';
+import click1 from '@images/clicks/img1.jpg';
+import click22 from '@images/clicks/img22.jpg';
+import click25 from '@images/clicks/img25.jpg';
+import click27 from '@images/clicks/img27.jpg';
+import click28 from '@images/clicks/img28.jpg';
+import click34 from '@images/clicks/img34.jpg';
+import click50 from '@images/clicks/img50.jpg';
+import click53 from '@images/clicks/img53.jpg';
+import click47 from '@images/clicks/img47.jpg';
+import click46 from '@images/clicks/img46.jpg';
+import click52 from '@images/clicks/img52.jpg';
 
 import LazyLoad from 'react-lazyload';
 
@@ -58,7 +71,7 @@ const wideCoverflowImages = [
   cf_wide_img_13,
 ];
 
-const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2, cf_mine_img_1, cf_mine_img_2, cf_mine_img_1];
+const myCoverflowImages = [cf_mine_img_1, cf_mine_img_2, click55, click56, click22, click25, click27, click34, click47, click50, click53, click46, click52];
 
 const CoverflowSwiper = ({ swiperType, autoPlay, centeredSlides }) => {
   const params = {

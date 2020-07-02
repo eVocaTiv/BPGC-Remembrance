@@ -1,7 +1,7 @@
-import React from "react";
-import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
-import "@styles/parallaxSwiperStyles.scss";
+import React from 'react';
+import Swiper from 'react-id-swiper';
+import 'swiper/css/swiper.css';
+import '@styles/parallaxSwiperStyles.scss';
 import { Parallax } from 'react-scroll-parallax';
 
 const ParallaxSwiper = () => {
@@ -11,11 +11,11 @@ const ParallaxSwiper = () => {
     parallax: true,
     grabCursor: true,
     parallaxEl: {
-      el: ".parallax-bg",
-      value: "-23%",
+      el: '.parallax-bg',
+      value: '-23%',
     },
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       dynamicBullets: true,
     },
   };
@@ -45,7 +45,7 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="-400"
           >
             <Parallax y={[-40, 40]} x={[-220, 120]} tagOuter="figure">
-              Slide #2
+              BITS Pilani
             </Parallax>
           </div>
           <div
@@ -53,10 +53,8 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="10000"
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+              This is an endearing collection of my undergrate memories,
+              connecting with awesome people, places and feelings. So take a backseat and enjoy!
             </p>
           </div>
         </div>
@@ -66,7 +64,7 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="-400"
           >
             <Parallax y={[-40, 40]} x={[-220, 120]} tagOuter="figure">
-              Slide #3
+              It's magic!
             </Parallax>
           </div>
           <div
@@ -74,10 +72,8 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="10000"
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+              Feel free to get in touch should you have any similar ideas to work with,
+              or wish to showcase your own memories here!
             </p>
           </div>
         </div>

@@ -25,6 +25,56 @@ import v4img1 from '@images/verticalImages/v4img1.jpg';
 import v5img1 from '@images/verticalImages/v5img1.jpg';
 import v5img2 from '@images/verticalImages/v5img2.jpg';
 
+import click2 from '@images/clicks/img2.jpg';
+import click3 from '@images/clicks/img3.jpg';
+import click4 from '@images/clicks/img4.jpg';
+import click5 from '@images/clicks/img5.jpg';
+import click6 from '@images/clicks/img6.jpg';
+import click7 from '@images/clicks/img7.jpg';
+import click8 from '@images/clicks/img8.jpg';
+import click9 from '@images/clicks/img9.jpg';
+import click10 from '@images/clicks/img10.jpg';
+
+import click11 from '@images/clicks/img11.jpg';
+import click12 from '@images/clicks/img12.jpg';
+import click13 from '@images/clicks/img13.jpg';
+import click14 from '@images/clicks/img14.jpg';
+import click15 from '@images/clicks/img15.jpg';
+import click16 from '@images/clicks/img16.jpg';
+import click17 from '@images/clicks/img17.jpg';
+import click18 from '@images/clicks/img18.jpg';
+import click19 from '@images/clicks/img19.jpg';
+import click20 from '@images/clicks/img20.jpg';
+
+import click21 from '@images/clicks/img21.jpg';
+import click23 from '@images/clicks/img23.jpg';
+import click24 from '@images/clicks/img24.jpg';
+import click26 from '@images/clicks/img26.jpg';
+import click28 from '@images/clicks/img28.jpg';
+import click29 from '@images/clicks/img29.jpg';
+import click30 from '@images/clicks/img30.jpg';
+
+import click31 from '@images/clicks/img31.jpg';
+import click32 from '@images/clicks/img32.jpg';
+import click33 from '@images/clicks/img33.jpg';
+import click35 from '@images/clicks/img35.jpg';
+import click36 from '@images/clicks/img36.jpg';
+import click37 from '@images/clicks/img37.jpg';
+import click38 from '@images/clicks/img38.jpg';
+import click39 from '@images/clicks/img39.jpg';
+import click40 from '@images/clicks/img40.jpg';
+
+import click42 from '@images/clicks/img42.jpg';
+import click43 from '@images/clicks/img43.jpg';
+import click44 from '@images/clicks/img44.jpg';
+import click45 from '@images/clicks/img45.jpg';
+
+import click49 from '@images/clicks/img49.jpg';
+import click41 from '@images/clicks/img41.jpg';
+import click51 from '@images/clicks/img51.jpg';
+import click54 from '@images/clicks/img54.jpg';
+
+
 function App() {
   if (checkForInvalidBrowser() || mobileCheck()) {
     return <NotFoundPage />;
@@ -38,15 +88,15 @@ function App() {
         <ParallaxSwiper />
         <CoverflowSwiper autoPlay centeredSlides />
         <BGImage imgSrc={bgImageKeyboard} />
-        <VerticalFlipSwiper preload images={[v1img1]} />
-        <VerticalFlipSwiper images={[v2img1, v2img2]} />
-        <VerticalFlipSwiper images={[v3img1, v3img2]} />
+        <VerticalFlipSwiper  images={[v1img1,  click2, click3, click4, click5, click6, click7, click44, click8, click9, click10]} />
+        <VerticalFlipSwiper images={[v2img1, v2img2, click11, click12, click13, click14, click15, click16, click17, ]} />
+        <VerticalFlipSwiper images={[v3img1, v3img2, click19, click20, click21, click23, click24,  click26, click29, click30, ]} />
         <CubeSwiper />
 
         <BGImageParallax imageNumber={1} yOffA={100} yOffB={-50} />
-        <VerticalFlipSwiper images={[v5img1, v5img2]} />
-        <VerticalFlipSwiper images={[v4img1]} />
-        <VerticalFlipSwiper images={[v1img1]} />
+        <VerticalFlipSwiper images={[click49, v5img1, v5img2 , click33, click35, click36, click39]} />
+        <VerticalFlipSwiper images={[click43, v4img1,  click32 , click45, click40,  click37, click38]} />
+        <VerticalFlipSwiper images={[click51, click54, click41, click28,  click42, click31, click18]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
         <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
         <CoverflowSwiper autoPlay swiperType="mine" />
