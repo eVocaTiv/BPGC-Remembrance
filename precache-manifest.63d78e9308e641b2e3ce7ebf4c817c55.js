@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b75e5ee9ca5fcfa3de663f33e9378115",
+    "revision": "9ec3449ed69d920e5c25a76e31ebdfad",
     "url": "/BPGC-Remembrance/index.html"
   },
   {
-    "revision": "60cd9f27832045e17f39",
+    "revision": "3b235d5e05e995ff98b5",
     "url": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css"
   },
   {
-    "revision": "1cf0a0b8b1f07cc6cf93",
+    "revision": "2c35188d84f9fcd769a6",
     "url": "/BPGC-Remembrance/static/css/main.eb95c190.chunk.css"
   },
   {
-    "revision": "60cd9f27832045e17f39",
-    "url": "/BPGC-Remembrance/static/js/2.6cbd4658.chunk.js"
+    "revision": "3b235d5e05e995ff98b5",
+    "url": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/BPGC-Remembrance/static/js/2.6cbd4658.chunk.js.LICENSE.txt"
+    "url": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cf0a0b8b1f07cc6cf93",
-    "url": "/BPGC-Remembrance/static/js/main.7bd00549.chunk.js"
+    "revision": "2c35188d84f9fcd769a6",
+    "url": "/BPGC-Remembrance/static/js/main.656b58d1.chunk.js"
   },
   {
     "revision": "ad4d07b0e587564a3775",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img17.6d3cf76b.jpg"
   },
   {
-    "revision": "6ca5005459868c543791c16b41d904e0",
-    "url": "/BPGC-Remembrance/static/media/img19.6ca50054.jpg"
+    "revision": "85c14d6b1982f6b6921b11a706d7ba53",
+    "url": "/BPGC-Remembrance/static/media/img19.85c14d6b.jpg"
   },
   {
     "revision": "1a0dca489329cd2f1602e6b12d91a946",
@@ -148,8 +148,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img2.ecea6a81.jpg"
   },
   {
-    "revision": "62b6a166f9125c69ff2523b547c9bd82",
-    "url": "/BPGC-Remembrance/static/media/img21.62b6a166.jpg"
+    "revision": "c36e76a3f7b3385ddc9d7faf1ce6142f",
+    "url": "/BPGC-Remembrance/static/media/img20.c36e76a3.jpg"
+  },
+  {
+    "revision": "33a84955355a6c1edc92c0a0451411ef",
+    "url": "/BPGC-Remembrance/static/media/img21.33a84955.jpg"
+  },
+  {
+    "revision": "b61409a34fb67b59aaa9e0a993513fed",
+    "url": "/BPGC-Remembrance/static/media/img22.b61409a3.jpg"
+  },
+  {
+    "revision": "ca45433a94e44f223678b0f88abb4260",
+    "url": "/BPGC-Remembrance/static/media/img23.ca45433a.jpg"
   },
   {
     "revision": "1833d5d014db34a2534443c2d8a7a5dd",
@@ -168,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img28.da82a04d.jpg"
   },
   {
-    "revision": "361bdde0c8c9a3994c9e3f4b34cf3653",
-    "url": "/BPGC-Remembrance/static/media/img29.361bdde0.jpg"
+    "revision": "5955f79a52631a4e6d83edbf58c74c00",
+    "url": "/BPGC-Remembrance/static/media/img29.5955f79a.jpg"
   },
   {
     "revision": "5a3ab0ec9b81c5ad6beeeb4a16f91d3f",
@@ -184,8 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img3.ef50c989.jpg"
   },
   {
-    "revision": "f5fe7d1b181a4b941fab9937361354ce",
-    "url": "/BPGC-Remembrance/static/media/img30.f5fe7d1b.jpg"
+    "revision": "01863a5b90a630c7389d29d4a473a6af",
+    "url": "/BPGC-Remembrance/static/media/img30.01863a5b.jpg"
   },
   {
     "revision": "9bb9b9d0c1eb218b14a668479d537b97",
@@ -196,8 +208,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img32.5203df18.jpg"
   },
   {
-    "revision": "86cf7adf829ba6cc6d45ac369724bd46",
-    "url": "/BPGC-Remembrance/static/media/img33.86cf7adf.jpg"
+    "revision": "095a8c94fed8162efd77709804f5d26a",
+    "url": "/BPGC-Remembrance/static/media/img33.095a8c94.jpg"
   },
   {
     "revision": "5fc897e73de1b34db7168c16ef1ca7a4",
@@ -228,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img4.21cac7d3.jpg"
   },
   {
-    "revision": "80a18f08dbf711d2ea1bc4e6e847e66a",
-    "url": "/BPGC-Remembrance/static/media/img4.80a18f08.jpg"
+    "revision": "82a8da86d07a8ece904b0ffd5ac012e6",
+    "url": "/BPGC-Remembrance/static/media/img4.82a8da86.jpg"
   },
   {
     "revision": "99e32cacc62ace96c6d3b8f964c4dd23",
@@ -344,8 +356,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img9.0c74fdb2.jpg"
   },
   {
-    "revision": "2d9cb7a30e74d55f080ebd2722075b5d",
-    "url": "/BPGC-Remembrance/static/media/img9.2d9cb7a3.jpg"
+    "revision": "ab9ee9fb9694d9c324e90310267949d3",
+    "url": "/BPGC-Remembrance/static/media/img9.ab9ee9fb.jpg"
   },
   {
     "revision": "0760cfed62e14460bb67f150693ebe1a",
