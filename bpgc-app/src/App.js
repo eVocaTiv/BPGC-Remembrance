@@ -47,6 +47,7 @@ import click19 from '@images/clicks/img19.jpg';
 import click20 from '@images/clicks/img20.jpg';
 
 import click21 from '@images/clicks/img21.jpg';
+import click22 from '@images/clicks/img22.jpg';
 import click23 from '@images/clicks/img23.jpg';
 import click24 from '@images/clicks/img24.jpg';
 import click26 from '@images/clicks/img26.jpg';
@@ -89,7 +90,7 @@ function App() {
         <CoverflowSwiper autoPlay centeredSlides />
         <BGImage imgSrc={bgImageKeyboard} />
         <VerticalFlipSwiper  images={[v1img1,  click2, click3, click4, click5, click6, click7, click44, click8, click9, click10]} />
-        <VerticalFlipSwiper images={[v2img1, v2img2, click11, click12, click13, click14, click15, click16, click17, ]} />
+        <VerticalFlipSwiper images={[v2img1, v2img2, click11, click12, click13, click14, click15, click16, click17, click22]} />
         <VerticalFlipSwiper images={[v3img1, v3img2, click19, click20, click21, click23, click24,  click26, click29, click30, ]} />
         <CubeSwiper />
 
