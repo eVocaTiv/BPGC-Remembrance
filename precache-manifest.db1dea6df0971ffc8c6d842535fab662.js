@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ec3449ed69d920e5c25a76e31ebdfad",
+    "revision": "ce1453b64a5ae38160e730867a0d3e05",
     "url": "/BPGC-Remembrance/index.html"
   },
   {
-    "revision": "3b235d5e05e995ff98b5",
+    "revision": "c6141aed70ed2b083b7d",
     "url": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css"
   },
   {
-    "revision": "2c35188d84f9fcd769a6",
+    "revision": "2876262ce9e38430151b",
     "url": "/BPGC-Remembrance/static/css/main.eb95c190.chunk.css"
   },
   {
-    "revision": "3b235d5e05e995ff98b5",
-    "url": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js"
+    "revision": "c6141aed70ed2b083b7d",
+    "url": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js.LICENSE.txt"
+    "url": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c35188d84f9fcd769a6",
-    "url": "/BPGC-Remembrance/static/js/main.656b58d1.chunk.js"
+    "revision": "2876262ce9e38430151b",
+    "url": "/BPGC-Remembrance/static/js/main.bee88da2.chunk.js"
   },
   {
     "revision": "ad4d07b0e587564a3775",
@@ -334,6 +334,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5b20cc22063010bc2411618cb844b34",
     "url": "/BPGC-Remembrance/static/media/img6.b5b20cc2.jpg"
+  },
+  {
+    "revision": "8ae53cc25e72b3b0d8e7d82b1fd2eae6",
+    "url": "/BPGC-Remembrance/static/media/img61.8ae53cc2.jpg"
+  },
+  {
+    "revision": "5358278d69987cdd07755f538cfb3682",
+    "url": "/BPGC-Remembrance/static/media/img62.5358278d.jpg"
+  },
+  {
+    "revision": "f98f9100b422bc4d523beed70b70e693",
+    "url": "/BPGC-Remembrance/static/media/img63.f98f9100.jpg"
+  },
+  {
+    "revision": "58788b63d7cb79b4892df18e2dca9e47",
+    "url": "/BPGC-Remembrance/static/media/img64.58788b63.jpg"
+  },
+  {
+    "revision": "82b299943dd82610f0e8545af2ffa6ca",
+    "url": "/BPGC-Remembrance/static/media/img65.82b29994.jpg"
   },
   {
     "revision": "6daa405cf2180e60d869cf14af84c06f",

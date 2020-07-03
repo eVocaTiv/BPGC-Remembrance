@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/BPGC-Remembrance/static/css/main.eb95c190.chunk.css",
-    "main.js": "/BPGC-Remembrance/static/js/main.656b58d1.chunk.js",
-    "main.js.map": "/BPGC-Remembrance/static/js/main.656b58d1.chunk.js.map",
+    "main.js": "/BPGC-Remembrance/static/js/main.bee88da2.chunk.js",
+    "main.js.map": "/BPGC-Remembrance/static/js/main.bee88da2.chunk.js.map",
     "runtime-main.js": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js",
     "runtime-main.js.map": "/BPGC-Remembrance/static/js/runtime-main.24c5a805.js.map",
     "static/css/2.508070a3.chunk.css": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css",
-    "static/js/2.57bb79fd.chunk.js": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js",
-    "static/js/2.57bb79fd.chunk.js.map": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js.map",
+    "static/js/2.86c16b36.chunk.js": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js",
+    "static/js/2.86c16b36.chunk.js.map": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js.map",
     "index.html": "/BPGC-Remembrance/index.html",
-    "precache-manifest.63d78e9308e641b2e3ce7ebf4c817c55.js": "/BPGC-Remembrance/precache-manifest.63d78e9308e641b2e3ce7ebf4c817c55.js",
+    "precache-manifest.db1dea6df0971ffc8c6d842535fab662.js": "/BPGC-Remembrance/precache-manifest.db1dea6df0971ffc8c6d842535fab662.js",
     "service-worker.js": "/BPGC-Remembrance/service-worker.js",
     "static/css/2.508070a3.chunk.css.map": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css.map",
     "static/css/main.eb95c190.chunk.css.map": "/BPGC-Remembrance/static/css/main.eb95c190.chunk.css.map",
-    "static/js/2.57bb79fd.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.57bb79fd.chunk.js.LICENSE.txt",
+    "static/js/2.86c16b36.chunk.js.LICENSE.txt": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js.LICENSE.txt",
     "static/media/commonStyles.scss": "/BPGC-Remembrance/static/media/Roboto-Thin.321de678.ttf",
     "static/media/parallaxSwiperStyles.scss": "/BPGC-Remembrance/static/media/bpgc-parallax.24775f7c.jpg",
     "static/media/bgImageStyles.scss": "/BPGC-Remembrance/static/media/comet.ff0976a4.jpg",
@@ -71,6 +71,11 @@
     "static/media/img55.jpg": "/BPGC-Remembrance/static/media/img55.0e532f75.jpg",
     "static/media/img56.jpg": "/BPGC-Remembrance/static/media/img56.8dc84eb1.jpg",
     "static/media/img6.jpg": "/BPGC-Remembrance/static/media/img6.b5b20cc2.jpg",
+    "static/media/img61.jpg": "/BPGC-Remembrance/static/media/img61.8ae53cc2.jpg",
+    "static/media/img62.jpg": "/BPGC-Remembrance/static/media/img62.5358278d.jpg",
+    "static/media/img63.jpg": "/BPGC-Remembrance/static/media/img63.f98f9100.jpg",
+    "static/media/img64.jpg": "/BPGC-Remembrance/static/media/img64.58788b63.jpg",
+    "static/media/img65.jpg": "/BPGC-Remembrance/static/media/img65.82b29994.jpg",
     "static/media/img7.jpg": "/BPGC-Remembrance/static/media/img7.d3c05898.jpg",
     "static/media/img8.jpg": "/BPGC-Remembrance/static/media/img8.d77fbdea.jpg",
     "static/media/img9.jpg": "/BPGC-Remembrance/static/media/img9.ab9ee9fb.jpg",
@@ -86,8 +91,8 @@
   "entrypoints": [
     "static/js/runtime-main.24c5a805.js",
     "static/css/2.508070a3.chunk.css",
-    "static/js/2.57bb79fd.chunk.js",
+    "static/js/2.86c16b36.chunk.js",
     "static/css/main.eb95c190.chunk.css",
-    "static/js/main.656b58d1.chunk.js"
+    "static/js/main.bee88da2.chunk.js"
   ]
 }
