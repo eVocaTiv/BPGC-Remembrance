@@ -75,6 +75,12 @@ import click41 from '@images/clicks/img41.jpg';
 import click51 from '@images/clicks/img51.jpg';
 import click54 from '@images/clicks/img54.jpg';
 
+import click61 from '@images/clicks/img61.jpg';
+import click62 from '@images/clicks/img62.jpg';
+import click63 from '@images/clicks/img63.jpg';
+import click64 from '@images/clicks/img64.jpg';
+import click65 from '@images/clicks/img65.jpg';
+
 
 function App() {
   if (checkForInvalidBrowser() || mobileCheck()) {
@@ -95,9 +101,9 @@ function App() {
         <CubeSwiper />
 
         <BGImageParallax imageNumber={1} yOffA={100} yOffB={-50} />
-        <VerticalFlipSwiper images={[click49, v5img1, v5img2 , click33, click35, click36, click39]} />
-        <VerticalFlipSwiper images={[click43, v4img1,  click32 , click45, click40,  click37, click38]} />
-        <VerticalFlipSwiper images={[click51, click54, click41, click28,  click42, click31, click18]} />
+        <VerticalFlipSwiper images={[click49, v5img1, v5img2 , click33, click36, click39, click61, click64]} />
+        <VerticalFlipSwiper images={[click43, v4img1,  click32 , click45, click40,  click37, click38, click62, click65]} />
+        <VerticalFlipSwiper images={[click51, click54, click41, click28,  click42, click31, click18, click63]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
         <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
         <CoverflowSwiper autoPlay swiperType="mine" />
