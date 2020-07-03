@@ -22,7 +22,6 @@ const FlipEffect = ({ images }) => {
         <div key={img} className="vertical-img-container">
           <LazyLoad>
             <img className="vertical-img swiper-lazy" data-src={img} />
-            <div className="swiper-lazy-preloader" />
           </LazyLoad>
         </div>
       );
