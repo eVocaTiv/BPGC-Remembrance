@@ -16,7 +16,7 @@ class NotFoundPage extends Component {
           <u>Access denied</u>{' '}
         </b>
         <br />
-        You are probably using an unsupported browser for this webpage - IE /
+        You are probably on a mobile device, or using an unsupported browser for this webpage - IE /
         Edge / Safari / Firefox.
         <br /> <br />
         PS: For the best experience use a desktop with a 1080p resolution :)
