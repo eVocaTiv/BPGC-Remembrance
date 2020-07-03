@@ -34,7 +34,7 @@ const ParallaxSwiper = () => {
                 className="parallax-swiper-top-slide_sub-heading"
                 data-swiper-parallax="600"
               >
-                &#8594;
+                &#8674;
               </span>
             </Parallax>
           </div>
@@ -54,7 +54,8 @@ const ParallaxSwiper = () => {
           >
             <p>
               This is an endearing collection of my undergraduate memories,
-              connecting with awesome people, places and feelings. So take a backseat and enjoy!
+              exploring awesome people, places and feelings. So take a backseat
+              and enjoy!
             </p>
           </div>
         </div>
@@ -72,8 +73,8 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="10000"
           >
             <p>
-              Feel free to get in touch should you have any similar ideas to work with,
-              or wish to showcase your own memories here!
+              Feel free to get in touch should you have any similar ideas to
+              work with, or wish to showcase your own memories here!
             </p>
           </div>
         </div>

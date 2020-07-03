@@ -101,9 +101,9 @@ function App() {
         <CubeSwiper />
 
         <BGImageParallax imageNumber={1} yOffA={100} yOffB={-50} />
-        <VerticalFlipSwiper images={[click49, v5img1, v5img2 , click33, click36, click39, click61, click64]} />
-        <VerticalFlipSwiper images={[click43, v4img1,  click32 , click45, click40,  click37, click38, click62, click65]} />
-        <VerticalFlipSwiper images={[click51, click54, click41, click28,  click42, click31, click18, click63]} />
+        <VerticalFlipSwiper images={[v5img2, v5img1 , click33, click36, click39, click61, click64, click49]} />
+        <VerticalFlipSwiper images={[click38, v4img1,  click32 , click45, click40,  click37, click62, click65, click43]} />
+        <VerticalFlipSwiper images={[click63, click54, click41, click28,  click42, click31, click18, click51]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
         <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
         <CoverflowSwiper autoPlay swiperType="mine" />
