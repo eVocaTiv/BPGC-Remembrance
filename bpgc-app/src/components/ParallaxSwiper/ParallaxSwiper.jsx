@@ -53,7 +53,7 @@ const ParallaxSwiper = () => {
             data-swiper-parallax="10000"
           >
             <p>
-              This is an endearing collection of my undergrate memories,
+              This is an endearing collection of my undergraduate memories,
               connecting with awesome people, places and feelings. So take a backseat and enjoy!
             </p>
           </div>
