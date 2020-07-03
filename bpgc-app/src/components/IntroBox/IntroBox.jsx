@@ -15,7 +15,7 @@ class IntroBox extends Component {
         <div className="intro-heading--2">
           <Parallax x={[-40, 40]} y={[70, -70]} tagOuter="figure">
             WRITTEN IN CODE
-            <span className="intro-heading-bullet">.</span>
+            <span className="intro-heading-bullet">. &nbsp; &#8675;</span>
           </Parallax>
         </div>
       </div>
