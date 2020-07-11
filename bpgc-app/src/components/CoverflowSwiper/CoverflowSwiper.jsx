@@ -10,6 +10,12 @@ import cf_swiper_img_3 from '@images/coverflowImages/img3.jpg';
 import cf_swiper_img_4 from '@images/coverflowImages/img4.jpg';
 import cf_swiper_img_5 from '@images/coverflowImages/img5.jpg';
 import cf_swiper_img_6 from '@images/coverflowImages/img6.jpg';
+import cf_swiper_img_7 from '@images/clicks/img66.jpg';
+import cf_swiper_img_8 from '@images/clicks/img70.jpg';
+import cf_swiper_img_9 from '@images/clicks/img67.jpg';
+import cf_swiper_img_10 from '@images/clicks/img77.jpg';
+
+
 
 // wide coverflow swiper
 import cf_wide_img_1 from '@images/coverflowImages/wide/img1.jpg';
@@ -53,6 +59,10 @@ const normalCoverflowImages = [
   cf_swiper_img_4,
   cf_swiper_img_5,
   cf_swiper_img_6,
+  cf_swiper_img_7,
+  cf_swiper_img_8,
+  cf_swiper_img_9,
+  cf_swiper_img_10
 ];
 
 const wideCoverflowImages = [

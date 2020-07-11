@@ -54,6 +54,15 @@ class Navbar extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
+              href="https://drive.google.com/drive/folders/1X19SPycDVfJAA4Mbog4xCoh2_0mCL9kB?usp=sharing"
+            >
+              More Photos &#8599;	
+            </a>
+          </span>
+          <span className="nav-item">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/eVocaTiv/BPGC-Remembrance"
             >
               Project GitHub

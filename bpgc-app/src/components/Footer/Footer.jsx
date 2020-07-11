@@ -29,8 +29,8 @@ class Footer extends Component {
           </span>
         </div>
         <span id="credits-text" className="credits-item">
-          <b style={{ color: '#7DFFAD' }}>Photos Credits:</b> &nbsp; Dept. of
-          Photography BPGC, Kunal Dewan &amp; several other BITSians!
+          <b style={{ color: '#7DFFAD' }}>Photos Credits:</b> &nbsp; Kunal Dewan, Dept. of
+          Photography BPGC &amp; several other BITSians!
         </span>
       </div>
     );

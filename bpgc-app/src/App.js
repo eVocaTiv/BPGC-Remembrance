@@ -16,6 +16,9 @@ import {
 import { checkForInvalidBrowser, mobileCheck } from '@utils/helpers';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import bgImageKeyboard from '@images/img1.jpg';
+
+// TODO: Refactor 
+
 import v1img1 from '@images/verticalImages/v1img1.jpg';
 import v2img1 from '@images/verticalImages/v2img1.jpg';
 import v2img2 from '@images/verticalImages/v2img2.jpg';
@@ -80,7 +83,15 @@ import click62 from '@images/clicks/img62.jpg';
 import click63 from '@images/clicks/img63.jpg';
 import click64 from '@images/clicks/img64.jpg';
 import click65 from '@images/clicks/img65.jpg';
+import click68 from '@images/clicks/img68.jpg';
+import click69 from '@images/clicks/img69.jpg';
 
+import click71 from '@images/clicks/img71.jpg';
+import click72 from '@images/clicks/img72.jpg';
+import click73 from '@images/clicks/img73.jpg';
+import click74 from '@images/clicks/img74.jpg';
+import click75 from '@images/clicks/img75.jpg';
+import click76 from '@images/clicks/img76.jpg';
 
 function App() {
   if (checkForInvalidBrowser() || mobileCheck()) {
@@ -96,14 +107,14 @@ function App() {
         <CoverflowSwiper autoPlay centeredSlides />
         <BGImage imgSrc={bgImageKeyboard} />
         <VerticalFlipSwiper  images={[v1img1,  click2, click3, click4, click5, click6, click7, click44, click8, click9, click10]} />
-        <VerticalFlipSwiper images={[v2img1, v2img2, click11, click12, click13, click14, click15, click16, click17, click22]} />
-        <VerticalFlipSwiper images={[v3img1, v3img2, click19, click20, click21, click23, click24,  click26, click29, click30, ]} />
+        <VerticalFlipSwiper images={[v2img1, v2img2, click11, click12, click13, click14, click15, click16, click17, click68, click22]} />
+        <VerticalFlipSwiper images={[v3img1, v3img2, click19, click20, click21, click23, click24,  click26, click29, click30, click69]} />
         <CubeSwiper />
 
         <BGImageParallax imageNumber={1} yOffA={100} yOffB={-50} />
-        <VerticalFlipSwiper images={[v5img2, v5img1 , click33, click36, click39, click61, click64, click49]} />
-        <VerticalFlipSwiper images={[click38, v4img1,  click32 , click45, click40,  click37, click62, click65, click43]} />
-        <VerticalFlipSwiper images={[click63, click54, click41, click28,  click42, click31, click18, click51]} />
+        <VerticalFlipSwiper images={[v5img2, v5img1 , click33, click36, click39, click61, click64, click71, click75, click49]} />
+        <VerticalFlipSwiper images={[click38, v4img1,  click32 , click45, click40,  click37, click62, click65, click76, click72, click43]} />
+        <VerticalFlipSwiper images={[click63, click54, click41, click28,  click42, click31, click73, click18, click74, click51]} />
         <BGImageParallax doubleHeight imageNumber={2} yOffA={50} yOffB={10} />
         <CoverflowSwiper autoPlay centeredSlides swiperType="coverflow-wide" />
         <CoverflowSwiper autoPlay swiperType="mine" />
