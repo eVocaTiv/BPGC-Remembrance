@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7aa875460e0eba6ed1e1ba2cdf67ce71",
+    "revision": "1aa79d7e58cc75e95fc9d8228389eddd",
     "url": "/BPGC-Remembrance/index.html"
   },
   {
-    "revision": "c6141aed70ed2b083b7d",
+    "revision": "4e86fa0cf6897d0c05e5",
     "url": "/BPGC-Remembrance/static/css/2.508070a3.chunk.css"
   },
   {
-    "revision": "28312dff777e110416f9",
-    "url": "/BPGC-Remembrance/static/css/main.cb816ee6.chunk.css"
+    "revision": "b5179fb15fa64f259a62",
+    "url": "/BPGC-Remembrance/static/css/main.bf577abb.chunk.css"
   },
   {
-    "revision": "c6141aed70ed2b083b7d",
-    "url": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js"
+    "revision": "4e86fa0cf6897d0c05e5",
+    "url": "/BPGC-Remembrance/static/js/2.92eba813.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/BPGC-Remembrance/static/js/2.86c16b36.chunk.js.LICENSE.txt"
+    "url": "/BPGC-Remembrance/static/js/2.92eba813.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28312dff777e110416f9",
-    "url": "/BPGC-Remembrance/static/js/main.748dc473.chunk.js"
+    "revision": "b5179fb15fa64f259a62",
+    "url": "/BPGC-Remembrance/static/js/main.da8c84a9.chunk.js"
   },
   {
     "revision": "ad4d07b0e587564a3775",
@@ -356,12 +356,60 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BPGC-Remembrance/static/media/img65.82b29994.jpg"
   },
   {
+    "revision": "b5c877ef5de950177e9e5e26bcab169b",
+    "url": "/BPGC-Remembrance/static/media/img66.b5c877ef.jpg"
+  },
+  {
+    "revision": "454d4d70e264116531aee9f49486b461",
+    "url": "/BPGC-Remembrance/static/media/img67.454d4d70.jpg"
+  },
+  {
+    "revision": "478f5b06fe0de587f479f346da3689f6",
+    "url": "/BPGC-Remembrance/static/media/img68.478f5b06.jpg"
+  },
+  {
+    "revision": "cddb5d884c32e79032e8b40cc6438e9c",
+    "url": "/BPGC-Remembrance/static/media/img69.cddb5d88.jpg"
+  },
+  {
     "revision": "6daa405cf2180e60d869cf14af84c06f",
     "url": "/BPGC-Remembrance/static/media/img7.6daa405c.jpg"
   },
   {
     "revision": "d3c058985c316504c3c0371230a8f729",
     "url": "/BPGC-Remembrance/static/media/img7.d3c05898.jpg"
+  },
+  {
+    "revision": "ebd8de14764675ff9faa8efd198bc7ce",
+    "url": "/BPGC-Remembrance/static/media/img70.ebd8de14.jpg"
+  },
+  {
+    "revision": "e3813f2e3e759617928071c1437a529c",
+    "url": "/BPGC-Remembrance/static/media/img71.e3813f2e.jpg"
+  },
+  {
+    "revision": "84f300b244e3f7ec5f0fd8e92be80e77",
+    "url": "/BPGC-Remembrance/static/media/img72.84f300b2.jpg"
+  },
+  {
+    "revision": "b3f4de990b64f8afe8b634ded9ce5b2a",
+    "url": "/BPGC-Remembrance/static/media/img73.b3f4de99.jpg"
+  },
+  {
+    "revision": "aa457060ef2ea0e0c7c525f8640f199e",
+    "url": "/BPGC-Remembrance/static/media/img74.aa457060.jpg"
+  },
+  {
+    "revision": "3e28b1b7284b3fd85950bbfa1f4865b3",
+    "url": "/BPGC-Remembrance/static/media/img75.3e28b1b7.jpg"
+  },
+  {
+    "revision": "300beb8501e24da97d578faf9825a106",
+    "url": "/BPGC-Remembrance/static/media/img76.300beb85.jpg"
+  },
+  {
+    "revision": "38451aeac064342558efc26e382730cf",
+    "url": "/BPGC-Remembrance/static/media/img77.38451aea.jpg"
   },
   {
     "revision": "221309296dd112d82c9531be2559981e",
