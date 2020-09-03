@@ -25,5 +25,5 @@ Image credits: The Department of Photography, BPGC
 Image credits: The Department of Photography, BPGC
 
 ### Note
-The website is under development, stay tuned! :)
+The website is now live! :)
 Feel free to contact me at KunalX011gmail.com if you have any ideas or a contribution to the photos!
