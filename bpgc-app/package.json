@@ -14,7 +14,7 @@
     "react-id-swiper": "^3.0.0",
     "react-lazyload": "^2.6.7",
     "react-scripts": "3.4.1",
-    "swiper": "^5.3.8"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "craco  start",
